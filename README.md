@@ -94,11 +94,15 @@ Use workspace-intake to inspect a repo where learning is already underway. Inven
 
 ## Git policy
 
-Discuss what should be tracked, what should remain private or untracked, how journal changes are handled, commit style, branch, and remote before connecting or reshaping a workspace. The Git skill should show files and destination before committing or pushing and obtain authorization for those actions. Do not initialize Git or publish changes unless separately requested.
+Discuss what should be tracked, what should remain private or untracked, how journal changes are handled, commit style, branch, and remote before connecting or reshaping a workspace. Keep changes focused: make the smallest coherent change and preserve unrelated work. Before each Git action, show the exact files and destination. Authorization to stage, commit, and push is separate; a request authorizes only the action and scope it explicitly covers. Do not initialize Git or publish changes without authorization.
 
 ## Quality checks
 
 The manual scenarios in evals/learning-workflows.md cover goal discovery, constraints, lessons without journals, importing an existing repo, mock interviews, and Git publication. They are evaluation prompts and criteria, not proof that a model has passed them.
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Official host references
 
