@@ -14,6 +14,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Resume after cloning or pulling a learning repo](04-resume-after-pull.md)
 - [Set up or update a progress journal](05-progress-journal.md)
 - [Bring in an existing learning repository](06-existing-learning-repo.md)
+- [Prepare for an exam or qualification](07-exam-preparation.md)
 - More scenarios will be added here individually.
 
 ## Before you start
