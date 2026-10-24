@@ -15,6 +15,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Set up or update a progress journal](05-progress-journal.md)
 - [Bring in an existing learning repository](06-existing-learning-repo.md)
 - [Prepare for an exam or qualification](07-exam-preparation.md)
+- [Practice for a job interview](08-mock-interview.md)
 - More scenarios will be added here individually.
 
 ## Before you start
