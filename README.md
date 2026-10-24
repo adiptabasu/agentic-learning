@@ -37,7 +37,7 @@ The Learning Guide should be candid and respectful. It should not promise succes
 - AGENTS.md — shared project guidance for agents that read this convention.
 - personas/ — portable Learning Guide and Teacher behavior definitions.
 - skills/ — canonical, tool-independent skill sources.
-- templates/ — blank formats for an optional private journal and session notes.
+- templates/ — blank formats for an optional private journal, session notes, and a repo-local learning continuity index.
 - evals/learning-workflows.md — example situations and observable behaviors for manually reviewing workflow quality.
 - scripts/sync_skills.py — copies canonical skill files into a selected host's native skill folder.
 - No host-specific skills folder is included until a learner selects and initializes a host.
@@ -90,7 +90,9 @@ The journal template tracks goals, starting evidence, session history, uncertain
 
 ## Existing learning repositories
 
-Use workspace-intake to inspect a repo where learning is already underway. Inventory its materials, relate them to the agreed goal, and propose journal updates with references to evidence. Distinguish what the materials show was completed from what they establish the learner understands. Review proposed journal or structure changes before they are saved or applied.
+Use workspace-intake to inspect a repo where learning is already underway. Inventory its materials, relate them to the agreed goal, and propose journal updates with references to evidence. Distinguish what the materials show was completed from what they establish the learner understands. It asks whether you want a restructure or prefer to keep the current layout. If you opt in, it can propose a better structure with a current-to-proposed path map and effects on references, imports, configuration, tests, and host discovery; it applies only the specific reorganization you approve.
+
+If you want to resume learning after cloning or pulling the repo, ask it to set up an agreed learning entry point from [the continuity index template](templates/learning-home-template.md). The index links to the active goal, plan, journal, and latest session notes, and records the current milestone, demonstrated evidence, open questions, and next step. Future agents should read it before resuming; if the host does not discover it automatically, direct the agent to the file. You choose which records are tracked in Git; private details stay out unless you explicitly choose to include them. During a later session, use the Teacher skill to resume from the saved state.
 
 ## Git policy
 

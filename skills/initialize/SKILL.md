@@ -30,7 +30,7 @@ Do not ask the learner to repeat information already clearly provided or infer a
 
 ## Propose before restructuring
 
-Present the selected host and model if relevant, verified native skill path and invocation, current copy-check results, files to add/copy/move/preserve/remove, journal/workspace choice, Git tracking and remote policy, and compatibility uncertainties.
+Present the selected host and model if relevant, verified native skill path and invocation, current copy-check results, files to add/copy/move/preserve/remove, journal/workspace choice, Git tracking and remote policy, and compatibility uncertainties. When adapting an existing repository, include a current-to-proposed path map and explain effects on references, imports, build/config files, tests, and host discovery. Separate structural changes from host setup so the learner can approve each scope clearly.
 
 Wait for the learner's agreement before structural changes, moves, deletions, Git initialization, or adapting an existing repository. Preserve originals unless an agreed plan explicitly includes moving or removing them. Resolve conflicts before overwriting.
 
