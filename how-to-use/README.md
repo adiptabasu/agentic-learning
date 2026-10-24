@@ -18,6 +18,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Practice for a job interview](08-mock-interview.md)
 - [Create visual notes for a topic](09-visual-notes.md)
 - [Make skills available in your agent](10-initialize-agent.md)
+- [Choose what to track and publish with Git](11-git-and-publishing.md)
 - More scenarios will be added here individually.
 
 ## Before you start
