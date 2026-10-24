@@ -12,6 +12,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Plan toward a specific goal and deadline](02-plan-for-a-goal.md)
 - [Learn a topic in one session](03-one-off-learning-session.md)
 - [Resume after cloning or pulling a learning repo](04-resume-after-pull.md)
+- [Set up or update a progress journal](05-progress-journal.md)
 - More scenarios will be added here individually.
 
 ## Before you start
