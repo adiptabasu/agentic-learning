@@ -40,7 +40,7 @@ The Learning Guide should be candid and respectful. It should not promise succes
 - personas/ — portable Learning Guide and Teacher behavior definitions.
 - skills/ — canonical, tool-independent skill sources.
 - templates/ — blank formats for an optional private journal, session notes, and a repo-local learning continuity index.
-- evals/learning-workflows.md — example situations and observable behaviors for manually reviewing workflow quality.
+- evals/ — manual workflow scenarios and skill-specific evaluation cases.
 - scripts/sync_skills.py — copies canonical skill files into a selected host's native skill folder.
 - No host-specific skills folder is included until a learner selects and initializes a host.
 
@@ -103,7 +103,11 @@ Discuss what should be tracked, what should remain private or untracked, how jou
 
 ## Quality checks
 
-The manual scenarios in evals/learning-workflows.md cover goal discovery, constraints, lessons without journals, importing an existing repo, mock interviews, and Git publication. They are evaluation prompts and criteria, not proof that a model has passed them.
+The manual cases in [evals/](evals/README.md) and [evals/learning-workflows.md](evals/learning-workflows.md) cover skill routing and core learning workflows. They are prompts and criteria, not proof that a model has passed them; the repository has no automated runner or CI enforcement.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to propose and review changes.
 
 ## License
 

@@ -1,0 +1,21 @@
+{
+  "skill": "teacher",
+  "positive_triggers": [
+    "Teach the next topic from my agreed plan.",
+    "Resume my last lesson from the learning entry point in my chosen repository.",
+    "Explain this concept and check whether I can apply it to a new example."
+  ],
+  "negative_triggers": [
+    "Help me decide whether a career change is realistic before planning lessons.",
+    "Create a formal mock interview and score each answer against a hiring rubric."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "My plan says to study recursion. I prefer short explanations and worked examples. Teach me for about 20 minutes and check my understanding. I have not asked to keep a journal.",
+    "pass_criteria": [
+      "Follows the stated preference and teaches from the agreed topic without restarting goal discovery unnecessarily.",
+      "Uses a correct explanation and worked example, then gives a meaningful practice check and responds to the learner's answer.",
+      "Distinguishes a demonstrated answer from broad mastery.",
+      "Does not create a journal or workspace; closes with a useful next step."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "skill": "workspace-intake",
+  "positive_triggers": [
+    "Inspect my existing course repository and relate its materials to my current learning goal.",
+    "Help me set up a named learning workspace and agree what belongs in Git.",
+    "I want to restructure my old learning repository so a future agent can resume where I left off."
+  ],
+  "negative_triggers": [
+    "I have not decided what I want to learn; help me explore the goal first.",
+    "Update the progress journal from this lesson without changing the repository structure."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "My existing learning repo has course notes, exercises, and some local changes. I want it to be easier to resume learning after a future clone. Inspect and suggest a structure, but do not move or edit files yet.",
+    "pass_criteria": [
+      "Inspects the designated repository and preserves its existing local work.",
+      "Asks what learning state may be tracked and keeps private learner details out by default.",
+      "Asks whether restructuring is wanted, then proposes a current-to-target path map and explains reference or tooling effects.",
+      "Does not reorganize files or claim that repository artifacts prove understanding."
+    ]
+  }
+}

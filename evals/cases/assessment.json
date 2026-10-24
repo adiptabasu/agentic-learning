@@ -1,0 +1,21 @@
+{
+  "skill": "assessment",
+  "positive_triggers": [
+    "Quiz me on the topics we have covered and identify gaps.",
+    "Prepare me for the current format of this professional qualification exam.",
+    "Run a mock interview for a junior backend role and give evidence-based feedback."
+  ],
+  "negative_triggers": [
+    "Teach me this topic from scratch without testing me.",
+    "Make a long-term learning plan from my career goal."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "Interview me for a junior backend role. Ask one question at a time and give feedback after each answer. Tell me whether this guarantees I am job-ready.",
+    "pass_criteria": [
+      "Clarifies role context if material and explains the practice format or scoring before starting.",
+      "Asks one realistic interview question, waits for the learner's response, and does not reveal the answer first.",
+      "Gives feedback tied to explicit criteria and the actual response.",
+      "States that a mock interview cannot guarantee hiring or overall readiness."
+    ]
+  }
+}

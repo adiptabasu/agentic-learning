@@ -1,6 +1,6 @@
 # Learning workflow evaluation scenarios
 
-Use these as manual behavior checks when revising the Learning Guide, Teacher, journal, or assessment workflows. They are scenarios, not claims that an AI passed an evaluation. Assess observable behavior against the criteria below.
+Use these as manual end-to-end behavior checks when revising the Learning Guide, Teacher, journal, or assessment workflows. Skill-specific routing and behavior cases are indexed in the [evaluation case catalog](README.md). These scenarios are not claims that an AI passed an evaluation. Assess observable behavior against the criteria below.
 
 ## Scenario 1: Exploring a career change
 

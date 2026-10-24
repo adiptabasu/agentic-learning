@@ -1,0 +1,21 @@
+{
+  "skill": "writing",
+  "positive_triggers": [
+    "Make this study journal note clearer while preserving what I actually said.",
+    "Draft a concise README section from these verified project notes.",
+    "Suggest an accurate commit message based on this staged diff."
+  ],
+  "negative_triggers": [
+    "Assess whether I understand this topic by asking me questions.",
+    "Create a visual diagram of this learning process."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "Turn these notes into a short progress update: 'finished 3 exercises; got 2 wrong first time; fixed after hint; still mix up lists and tuples.' Keep it natural and do not make it sound more successful than it was.",
+    "pass_criteria": [
+      "Preserves the completed exercises, initial errors, hint use, and remaining confusion.",
+      "Uses concise, natural prose for the intended progress-report audience.",
+      "Does not inflate mastery or invent dates, results, or commitments.",
+      "Does not update a journal or take Git actions merely because it drafted prose."
+    ]
+  }
+}

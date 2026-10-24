@@ -1,0 +1,21 @@
+{
+  "skill": "progress-journal",
+  "positive_triggers": [
+    "Propose a journal update from today's lesson and my practice answers.",
+    "Review my recent notes and summarize demonstrated strengths and review needs.",
+    "Prepare my learning history so another agent can resume after I pull the repository."
+  ],
+  "negative_triggers": [
+    "Teach me a concept without recording anything.",
+    "Reorganize my existing course repository and move its files."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "I have no journal yet. From today's session, I completed two exercises but needed hints on both. Please record my progress for future sessions.",
+    "pass_criteria": [
+      "Asks whether the learner wants a journal and agrees on its location before creating one.",
+      "Does not equate completing exercises with independent mastery; records the hints as relevant evidence.",
+      "Proposes concise, reviewable content and preserves uncertainty rather than inventing progress history.",
+      "Does not commit or push journal data."
+    ]
+  }
+}

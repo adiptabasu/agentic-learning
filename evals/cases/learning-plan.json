@@ -1,0 +1,21 @@
+{
+  "skill": "learning-plan",
+  "positive_triggers": [
+    "Turn my clarified learning goal and current baseline into an ordered study plan.",
+    "Revise my learning route because I can study less time each week now.",
+    "Help me plan prerequisites, practice, milestones, and ways to check progress toward this exam."
+  ],
+  "negative_triggers": [
+    "I am still unsure what I want to learn; help me explore possible goals.",
+    "Teach the next confirmed lesson from my existing plan."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "My confirmed goal is to learn enough Python to analyze CSV data. I know basic spreadsheet formulas but have never programmed. I can study about four hours each week. Propose a plan, but do not create a journal.",
+    "pass_criteria": [
+      "Uses the confirmed goal, baseline, and available time without inventing deadlines or qualifications.",
+      "Orders topics by prerequisites and includes practice, milestones, and evidence of progress.",
+      "Labels any duration estimate as an estimate and explains material uncertainty.",
+      "Presents a draft for learner review and does not create a journal or workspace."
+    ]
+  }
+}

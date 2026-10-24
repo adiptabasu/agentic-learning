@@ -1,0 +1,21 @@
+{
+  "skill": "learning-guide",
+  "positive_triggers": [
+    "I might change careers, but I am not sure what I want or whether it is realistic.",
+    "Help me work out what I should learn next based on my goals and current experience.",
+    "I want to explore a study goal before deciding whether to make a plan."
+  ],
+  "negative_triggers": [
+    "Teach me recursion for 20 minutes using a simple example.",
+    "Give me a quiz on the networking topics we covered last week."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "I think I want to move into data science, but I do not know where to start. Ask me enough to understand my situation, one question at a time.",
+    "pass_criteria": [
+      "Starts from the learner's motivation and current situation without assuming education, experience, location, finances, or available time.",
+      "Asks one useful clarifying question at a time and does not force a plan before understanding the goal and constraints.",
+      "Discusses feasibility candidly, distinguishes facts from unknowns, and makes no job-outcome promise.",
+      "Summarizes its understanding and waits for confirmation before handing off to planning."
+    ]
+  }
+}

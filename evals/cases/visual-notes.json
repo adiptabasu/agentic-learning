@@ -1,0 +1,21 @@
+{
+  "skill": "visual-notes",
+  "positive_triggers": [
+    "Turn these biology notes into a concept map.",
+    "Create a visual timeline comparing the stages in these notes.",
+    "Show how these concepts relate using an annotated diagram."
+  ],
+  "negative_triggers": [
+    "Explain the concept to me in a short lesson without making a visual.",
+    "Write a natural-sounding email summarizing my study progress."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "Turn this short lesson on photosynthesis into a visual summary for a middle-school learner: light energy is captured by chlorophyll; water and carbon dioxide are used; glucose and oxygen are produced. Make the relationships clear and do not add unsupported facts.",
+    "pass_criteria": [
+      "Chooses a visual form suited to the relationships in the provided material.",
+      "Preserves the input's meaning and does not invent scientific details.",
+      "Keeps labels readable and distinguishes inputs, process, and outputs.",
+      "Asks whether the visual helped and offers to refine it; does not create an export file without a requested destination or format."
+    ]
+  }
+}

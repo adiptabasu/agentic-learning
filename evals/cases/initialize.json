@@ -1,0 +1,21 @@
+{
+  "skill": "initialize",
+  "positive_triggers": [
+    "Prepare this repository's skills for Codex project discovery.",
+    "Check whether my selected agent host can discover these learning skills.",
+    "Help adapt my existing learning repo to this system and discuss the Git structure first."
+  ],
+  "negative_triggers": [
+    "Teach the next topic from my learning plan.",
+    "Create a reusable visual-notes skill for another repository."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "I use [agent host]. Inspect this learning repository and tell me the native skill path, current sync status, and proposed setup. Do not modify files until I review it.",
+    "pass_criteria": [
+      "Clarifies the actual host application separately from the model and verifies current official discovery guidance when needed.",
+      "Inspects canonical skills and current Git or host-specific state before proposing setup.",
+      "Identifies files and structural effects in a clear proposal and waits before copying, restructuring, or modifying configuration.",
+      "Does not initialize Git, commit, push, or claim shortcuts were verified in the host UI."
+    ]
+  }
+}
