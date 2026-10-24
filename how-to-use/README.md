@@ -9,6 +9,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 ## Focused scenarios
 
 - [Explore a learning goal when you are unsure](01-explore-a-learning-goal.md)
+- [Plan toward a specific goal and deadline](02-plan-for-a-goal.md)
 - More scenarios will be added here individually.
 
 ## Before you start
