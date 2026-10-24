@@ -16,6 +16,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Bring in an existing learning repository](06-existing-learning-repo.md)
 - [Prepare for an exam or qualification](07-exam-preparation.md)
 - [Practice for a job interview](08-mock-interview.md)
+- [Create visual notes for a topic](09-visual-notes.md)
 - More scenarios will be added here individually.
 
 ## Before you start
