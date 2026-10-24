@@ -1,0 +1,15 @@
+# How to use Agentic Learning
+
+These guides show what to say, what to expect, and how to continue. Start with the full [goal-to-first-lesson walkthrough](00-start-to-first-lesson.md), or choose a focused scenario below.
+
+## Complete walkthrough
+
+- [From a learning goal to your first lesson](00-start-to-first-lesson.md)
+
+## Focused scenarios
+
+More scenario guides will be added here individually.
+
+## Before you start
+
+Skill shortcut syntax depends on the agent host and how the repository was initialized. If the shortcut is available, invoke the named skill. If it is not, ask the agent to read and follow the corresponding file, for example: “Read `skills/learning-guide/SKILL.md` and follow it.” The skill files are the source of truth for the workflow.

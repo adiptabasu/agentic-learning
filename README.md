@@ -30,6 +30,8 @@ Because this repository starts without .agents/skills/, initialize is not initia
 6. **Keep history if wanted.** A journal is optional. Choose a private workspace and agree on its location before creating one. Blank formats are in templates/.
 7. **Adapt the route.** Revisit older material and adjust the plan when goals, constraints, or evidence change.
 
+For copy-ready prompts and complete walkthroughs, start with the [How to use guides](how-to-use/README.md).
+
 The Learning Guide should be candid and respectful. It should not promise success. If a target seems infeasible, it should explain why, identify evidence and uncertainties, and explore alternatives. Slow progress is a prompt to investigate prerequisites, workload, practice, and teaching fit, not a judgment of ability.
 
 ## Repository structure
