@@ -77,6 +77,7 @@ The host choices are abacus, codex, claude, or all. The script is an optional wa
 - **progress-journal:** Records cross-session progress using evidence and learner-reviewed updates.
 - **assessment:** Provides topic checks and goal-related practice tests or interviews.
 - **visual-notes:** Produces visual summaries suited to the material.
+- **writing:** Drafts or edits natural, audience-appropriate content and specific, accurate commit messages without generic AI filler.
 - **workspace-intake:** Creates an agreed workspace or inspects an existing learning repository.
 - **git-updates:** Applies the learner's Git policy and respects authorization before commits and pushes.
 
