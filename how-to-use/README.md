@@ -8,7 +8,8 @@ These guides show what to say, what to expect, and how to continue. Start with t
 
 ## Focused scenarios
 
-More scenario guides will be added here individually.
+- [Explore a learning goal when you are unsure](01-explore-a-learning-goal.md)
+- More scenarios will be added here individually.
 
 ## Before you start
 
