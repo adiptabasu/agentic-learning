@@ -17,6 +17,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Prepare for an exam or qualification](07-exam-preparation.md)
 - [Practice for a job interview](08-mock-interview.md)
 - [Create visual notes for a topic](09-visual-notes.md)
+- [Make skills available in your agent](10-initialize-agent.md)
 - More scenarios will be added here individually.
 
 ## Before you start
