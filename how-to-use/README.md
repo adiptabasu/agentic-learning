@@ -13,6 +13,7 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Learn a topic in one session](03-one-off-learning-session.md)
 - [Resume after cloning or pulling a learning repo](04-resume-after-pull.md)
 - [Set up or update a progress journal](05-progress-journal.md)
+- [Bring in an existing learning repository](06-existing-learning-repo.md)
 - More scenarios will be added here individually.
 
 ## Before you start
