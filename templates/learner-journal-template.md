@@ -1,35 +1,17 @@
-# Learner journal template
+# Learning journal index
 
-This is a blank template, not a personal learner record. Copy it into a learner-selected private workspace only after agreeing on its name, location, and Git policy.
+This is a blank, reusable index, not a personal learner record. Copy it into a learner-selected workspace only after agreeing on the path, contents, and Git policy. Keep it small: link to topic journals and record only notes that genuinely apply across topics.
 
-## Learning preferences
+## Topic journals
 
-- Preferred name:
-- Time zone:
-- Preferred study formats:
-- Constraints or accessibility preferences the learner wants recorded:
+| Topic | Journal | Topic README or materials |
+| --- | --- | --- |
+| <topic name> | <topic path>/LEARNING-JOURNAL.md | <topic path>/README.md |
 
-## Active goal
+Add one row for each topic journal the learner chooses to maintain. Do not create topic folders or journals without their agreement.
 
-- Goal:
-- Why it matters:
-- Success criteria:
-- Starting point and evidence:
-- Constraints:
-- Open questions and uncertainties:
-- Current learning plan:
-- Current milestone:
+## Cross-topic notes
 
-## Session history
+- <A learning preference, recurring question, or observation that applies across topics, if useful.>
 
-| Date | Topic or activity | Evidence of understanding | Difficulty or open question | Review needed | Next step |
-| --- | --- | --- | --- | --- | --- |
-
-## Review queue
-
-| Topic | Why revisit | Date or trigger | Status |
-| --- | --- | --- | --- |
-
-## Sources
-
-Record authoritative sources used for changing requirements, exams, credentials, or career information, the date checked, and which planning decision they support.
+Detailed session reflections and problem-solving history belong in the relevant topic journal, not in this index.

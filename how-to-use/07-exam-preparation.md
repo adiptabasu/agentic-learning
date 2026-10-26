@@ -34,4 +34,4 @@ Use the results to adjust the learning plan. Ask for a new set if you want anoth
 
 ## Keep the record current if you chose a journal
 
-Ask the agent to propose a journal update with the topics assessed, result, rubric or scoring basis, errors, demonstrated strengths, and review priorities. Review the update before it is saved or included in Git. See the [progress journal guide](05-progress-journal.md).
+Ask the agent to propose an update in the relevant topic journal with the result, rubric or scoring basis, errors, demonstrated strengths, and review priorities. Update the central index only if something applies across topics. Review the update before it is saved or included in Git. See the [progress journal guide](05-progress-journal.md).

@@ -1,41 +1,41 @@
 # Resume after cloning or pulling a learning repo
 
-Use this when you return to a learning repository in a new chat, on another computer, or after pulling its latest changes. Continuity works only if the agreed learning records were saved where this checkout can access them.
+Use this when returning to a learning repository in a new chat, on another computer, or after pulling its latest changes. Continuity depends on the agreed learning records being available in this checkout.
 
-## Ask the agent to recover the learning state
+## Recover the learning state
 
-If the repo has an agreed `LEARNING.md` or other index, start with:
+If the repo has an agreed learning home or current-goal file, begin there. If it links to a central LEARNING-JOURNAL.md, read that index, then only the active topic's README.md and LEARNING-JOURNAL.md. Do not load every topic journal by default. Read the linked confirmed plan and latest session note when needed to understand the next step.
 
-> Use the `teacher` skill to resume my learning in this repository. First read [path to the agreed learning index, such as `LEARNING.md`] and the active goal, plan, journal, and latest session note it links to. Summarize the goal, current milestone, last evidence of what I understand, open questions, and next step. Ask me to confirm that I want to continue this goal before teaching.
+Ask the agent:
 
-If shortcuts are not available, say:
+> Use the teacher skill to resume my learning in this repository. Read the agreed learning home/current-goal file and confirmed plan, then the central LEARNING-JOURNAL.md index. For my current topic, read only its README.md and LEARNING-JOURNAL.md. Summarize my goal, current topic and milestone, relevant evidence, open questions, and next step. Ask whether I want to continue before teaching. Do not read other topic journals unless you explain why they are needed.
 
-> Read `skills/teacher/SKILL.md` and follow it. For continuity, read [path to the agreed learning index] and the linked learning records before teaching.
+If shortcuts are unavailable:
 
-Do not paste your whole journal into a prompt if the agent can read the agreed files locally. If it cannot access the repo files, provide only the relevant excerpts you are comfortable sharing.
+> Read skills/teacher/SKILL.md and follow it. For continuity, read [path to my learning home/current-goal file], the linked confirmed plan, the central LEARNING-JOURNAL.md index, and only [current topic path]/README.md and [current topic path]/LEARNING-JOURNAL.md.
+
+If the current topic is unclear, clarify it before opening topic journals. Do not paste a whole journal into a prompt if the agent can read the agreed files locally. If it cannot access files, provide only relevant excerpts you are comfortable sharing.
 
 ## Confirm or correct the checkpoint
 
-Check that the agent read the latest records, not an old copy. If something changed since the last session, correct it:
+Check that the agent read the latest records, not an old copy. Correct anything that changed:
 
-> The plan is still current, but [change in schedule / goal / background]. Please update your understanding and suggest how the next step should change before we continue.
+> The plan is still current, but [change]. Update your understanding and suggest how the next step should change before we continue.
 
-If the expected learning index or records are missing, do not let the agent invent progress. Say:
+If the home file, index, or a required topic record is missing:
 
-> I don't see the learning checkpoint. Tell me which files you could read and what is missing. I can provide the correct records or help set up a continuity index.
+> Tell me which files you could read and what is missing. Do not infer my progress. I can provide the correct records or help set up a continuity index.
 
 ## Continue and save the next checkpoint
 
-Once you confirm the summary, tell the Teacher how much time you have and what you want from the session:
+Once the summary is accurate, say:
 
 > That checkpoint is accurate. I have [time] today. Continue from [next step], using [preferred study style if relevant].
 
-At the end, review the proposed progress update:
+At the end, review a proposed update:
 
-> Prepare a concise update to the agreed journal and learning index. Record what we covered, evidence I demonstrated, what remains uncertain, and the next step. Show me the proposed changes before saving them.
+> Prepare a concise update to the agreed current topic journal and central index if cross-topic information changed. For each solved problem, record my proposed approach, guidance I needed, whether I report the solution was accepted, and what I want to derive or revisit independently. Keep my report separate from evidence of understanding. Show me the proposed changes before saving them.
 
-Only include files in Git according to the repo's agreed tracking policy. Keep private notes out of shared history unless you deliberately chose to track them and confirm that choice.
+Only include files in Git according to the agreed tracking policy. Keep private notes out of shared history unless you deliberately chose to track them and confirm that choice.
 
-## If there is no saved learning state
-
-You can still continue by telling the agent what you remember, or begin a fresh session with the [one-session lesson guide](03-one-off-learning-session.md). If you want durable continuity, ask `workspace-intake` to agree on an index path, linked records, and a privacy/Git policy; the reusable starting point is [the learning-home template](../templates/learning-home-template.md).
+If no saved learning state exists, you can provide what you remember or begin a one-off lesson. Journals are optional; see the [progress journal guide](05-progress-journal.md) to agree on a structure.

@@ -39,7 +39,7 @@ The Learning Guide should be candid and respectful. It should not promise succes
 - AGENTS.md — shared project guidance for agents that read this convention.
 - personas/ — portable Learning Guide and Teacher behavior definitions.
 - skills/ — canonical, tool-independent skill sources.
-- templates/ — blank formats for an optional private journal, session notes, and a repo-local learning continuity index.
+- templates/ — blank formats for an optional central journal index, topic journal, session notes, and a repo-local learning continuity index.
 - evals/ — manual workflow scenarios and skill-specific evaluation cases.
 - scripts/sync_skills.py — copies canonical skill files into a selected host's native skill folder.
 - No host-specific skills folder is included until a learner selects and initializes a host.
@@ -76,7 +76,7 @@ The host choices are abacus, codex, claude, or all. The script is an optional wa
 - **learning-guide:** Entry workflow for clarifying a learning goal and preparing an agreed handoff to planning.
 - **teacher:** Entry workflow for starting or resuming instruction from an agreed plan.
 - **learning-plan:** Produces an ordered, adjustable path after the goal is understood.
-- **progress-journal:** Records cross-session progress using evidence and learner-reviewed updates.
+- **progress-journal:** Maintains a small central index and topic-specific records with learner-reviewed, evidence-aware updates.
 - **assessment:** Provides topic checks and goal-related practice tests or interviews.
 - **visual-notes:** Produces visual summaries suited to the material.
 - **writing:** Drafts or edits natural, audience-appropriate content and specific, accurate commit messages without generic AI filler.
@@ -89,13 +89,13 @@ These canonical skill files are not automatically host shortcuts until a native 
 
 Personal learning data is not created automatically. Before creating a journal or topic workspace, agree on its name, exact location, contents, and whether it belongs in Git. Keep private notes and personal progress out of this shared learning system by default.
 
-The journal template tracks goals, starting evidence, session history, uncertainty, difficult areas, review needs, and sources. A completed course file or Git commit alone does not demonstrate mastery. Record evidence such as explaining a concept, solving a new problem, applying it in a project, or an assessment result.
+Use templates/learner-journal-template.md for the central index and templates/topic-journal-template.md for topic records. The central LEARNING-JOURNAL.md is a small index to topic journals and holds only genuinely cross-topic notes. Keep detailed reflections and problem history beside the relevant topic materials. At session start, read the agreed learning home/current-goal file and index, then only the active topic README and journal by default. Record the learner’s proposed approach, guidance needed, learner-reported acceptance, and what they want to derive or revisit; distinguish reports from demonstrated evidence. A completed file, commit, or accepted submission alone does not demonstrate mastery.
 
 ## Existing learning repositories
 
 Use workspace-intake to inspect a repo where learning is already underway. Inventory its materials, relate them to the agreed goal, and propose journal updates with references to evidence. Distinguish what the materials show was completed from what they establish the learner understands. It asks whether you want a restructure or prefer to keep the current layout. If you opt in, it can propose a better structure with a current-to-proposed path map and effects on references, imports, configuration, tests, and host discovery; it applies only the specific reorganization you approve.
 
-If you want to resume learning after cloning or pulling the repo, ask it to set up an agreed learning entry point from [the continuity index template](templates/learning-home-template.md). The index links to the active goal, plan, journal, and latest session notes, and records the current milestone, demonstrated evidence, open questions, and next step. Future agents should read it before resuming; if the host does not discover it automatically, direct the agent to the file. You choose which records are tracked in Git; private details stay out unless you explicitly choose to include them. During a later session, use the Teacher skill to resume from the saved state.
+If you want to resume learning after cloning or pulling the repo, ask it to set up an agreed learning entry point from [the continuity index template](templates/learning-home-template.md). The index links to the active goal, plan, central journal index, current topic materials, and latest session notes, and records the current milestone, demonstrated evidence, open questions, and next step. Future agents should read it before resuming; if the host does not discover it automatically, direct the agent to the file. You choose which records are tracked in Git; private details stay out unless you explicitly choose to include them. During a later session, use the Teacher skill to resume from the saved state.
 
 ## Git policy
 

@@ -4,14 +4,16 @@ Copy this file to an agreed location in the learning repository, commonly `LEARN
 
 ## How to resume
 
-When asked to continue learning in this repository, read this file and then the linked active goal, plan, progress journal, and latest session note. Summarize the current state and ask whether the learner wants to continue or change direction before teaching. If this file or a linked record is missing, ask rather than inventing progress.
+When asked to continue learning here, read this home/current-goal file and its linked confirmed plan, then the central LEARNING-JOURNAL.md index. Identify the active topic and read only that topic’s README.md and LEARNING-JOURNAL.md, plus the linked latest session note if needed. Do not load every topic journal by default. Summarize the current state and ask whether the learner wants to continue or change direction before teaching. If a required file or link is missing, or the active topic is unclear, ask rather than inventing progress.
 
 ## Active learning goal
 
 - Goal file: `path/to/active-goal.md`
 - Confirmed plan: `path/to/learning-plan.md`
-- Progress journal: `path/to/progress-journal.md`
-- Latest session note: `path/to/latest-session-note.md`
+- Central journal index: `LEARNING-JOURNAL.md`
+- Current topic README: `path/to/topic/README.md`
+- Current topic journal: `path/to/topic/LEARNING-JOURNAL.md`
+- Latest session note, if used: `path/to/latest-session-note.md`
 
 ## Resume checkpoint
 

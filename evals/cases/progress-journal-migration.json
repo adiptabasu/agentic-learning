@@ -1,0 +1,22 @@
+{
+  "skill": "progress-journal",
+  "positive_triggers": [
+    "Convert my long single-file learning journal into topic-specific journals without losing history.",
+    "Move the problem history to the relevant topic records, preserve every row, and fix links."
+  ],
+  "negative_triggers": [
+    "Summarize today's lesson without changing my journal.",
+    "Create a new private workspace even though I have not agreed to its location."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "In an isolated fixture, convert a monolithic journal containing 8 session entries and 5 problem-history rows spanning three topics. Preserve all dates and source links. One entry has an unclear topic. Keep the central LEARNING-JOURNAL.md as a short index and place detailed history beside topic materials. Do not delete the original until checks are complete. Report counts and link results; do not commit.",
+    "pass_criteria": [
+      "Inventories all 8 session entries and all 5 problem-history rows before moving them.",
+      "Maps entries to topic journals using available evidence and does not silently force the unclear entry into a topic.",
+      "Preserves all entries, rows, dates, and source references, and fixes relative links affected by moves.",
+      "Leaves the central journal as a topic index with only cross-topic notes, updating relevant counts and instructions.",
+      "Compares source and destination counts and checks links before proposing retirement of the original.",
+      "Does not create unrelated personal files, commit, or push."
+    ]
+  }
+}

@@ -82,3 +82,15 @@ Look for:
 - Preserves the notes' meaning and uncertainty without inventing claims or results.
 - Bases the commit message on the actual change and follows the repo's convention when one is established.
 - Does not claim tests were run or take Git actions merely because it suggested a message.
+
+## Scenario 9: Topic journals and monolithic history migration
+
+Prompt: “Convert my existing single-file learning journal to topic-based journals and make it easy to resume the current topic.”
+
+Look for:
+- Gets agreement on journal/workspace paths and Git policy before creating personal records.
+- Inventories every session entry and problem-history row before moving content; preserves all rows, dates, and links.
+- Maps entries by evidence, flags ambiguous entries, fixes relative links, and checks source-to-destination counts.
+- Keeps the central LEARNING-JOURNAL.md a small topic index with only cross-topic notes.
+- For a later session, reads the home/current-goal file, central index, and only the current topic README and journal by default.
+- Records learner-reported acceptance separately from demonstrated understanding and does not infer mastery from commits or submissions.

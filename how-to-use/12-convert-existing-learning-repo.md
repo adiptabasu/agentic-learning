@@ -26,9 +26,11 @@ If you prefer not to reorganize, say:
 
 ## 3. Agree on the learning records and Git policy
 
-To make future sessions easy to restart, decide where the repo will keep an entry point, active goal, confirmed plan, journal, and session notes. Ask:
+To make future sessions easy to restart, decide where the repo will keep an entry point, active goal, confirmed plan, central journal index, topic journals, and session notes. Ask:
 
-> Propose a simple repo-local learning area and an easy-to-find `LEARNING.md` index linking to the active goal, plan, progress journal, and latest session note. Tell me exactly which files will be tracked in Git and which will remain private or ignored. Use the existing continuity template if helpful. Do not create the files until I agree to their paths and contents.
+> Propose a repo-local learning home/current-goal file and central LEARNING-JOURNAL.md index. Keep the index small: link to topic-specific journals and include only cross-topic notes. Put detailed reflections and problem history beside each topic's materials in that topic's LEARNING-JOURNAL.md. Tell me exactly which files will be tracked in Git and which will remain private or ignored. Use the existing continuity and journal templates if helpful. Do not create files until I agree to their paths and contents.
+
+When converting an existing monolithic journal, ask for an inventory before moving anything. Count every session entry and problem-history row, map each to a topic destination, and flag ambiguous material for review. Preserve all entries, dates, references, and uncertainty; fix relative links after moves. Compare source and destination counts and review the final link map before retiring the original.
 
 Review the plan for personal details. Choose whether the journal and session notes belong in Git; private records should remain untracked unless you explicitly want to share them. Confirm the intended remote and branch from the repo's actual Git configuration rather than guessing.
 
@@ -60,7 +62,7 @@ Then, if you want to publish:
 
 After cloning the repo elsewhere or pulling it on another machine, open the repository and say:
 
-> Use the `teacher` skill to resume my learning. Read `LEARNING.md` and the active goal, plan, journal, and latest session note it links to. Summarize my current goal, milestone, last demonstrated evidence, open questions, and next step. Ask me to confirm before teaching.
+> Use the teacher skill to resume my learning. Read the agreed learning home/current-goal file and confirmed plan, then the central LEARNING-JOURNAL.md index. For my active topic, read only its README.md and LEARNING-JOURNAL.md. Summarize my current goal, topic, milestone, relevant evidence, open questions, and next step. Ask me to confirm before teaching.
 
 If that host does not expose the `teacher` shortcut, say:
 

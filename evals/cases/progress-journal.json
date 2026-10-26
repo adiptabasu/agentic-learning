@@ -3,19 +3,23 @@
   "positive_triggers": [
     "Propose a journal update from today's lesson and my practice answers.",
     "Review my recent notes and summarize demonstrated strengths and review needs.",
-    "Prepare my learning history so another agent can resume after I pull the repository."
+    "Prepare my learning history so another agent can resume after I pull the repository.",
+    "Update the active topic journal with my approach to a problem, the hints I needed, and what I want to derive on my own."
   ],
   "negative_triggers": [
     "Teach me a concept without recording anything.",
-    "Reorganize my existing course repository and move its files."
+    "Reorganize my existing course repository and move its files.",
+    "Read every topic journal before today’s session on one topic."
   ],
   "behavioral_evaluation": {
-    "prompt": "I have no journal yet. From today's session, I completed two exercises but needed hints on both. Please record my progress for future sessions.",
+    "prompt": "An agreed learning workspace has a home file, a central LEARNING-JOURNAL.md index for several topics, and topic README/journal pairs. Today I proposed an approach to a problem, needed two hints, and say the submitted answer was accepted. I want to derive the key step independently next time. Propose the journal update for the active topic only.",
     "pass_criteria": [
-      "Asks whether the learner wants a journal and agrees on its location before creating one.",
-      "Does not equate completing exercises with independent mastery; records the hints as relevant evidence.",
-      "Proposes concise, reviewable content and preserves uncertainty rather than inventing progress history.",
-      "Does not commit or push journal data."
+      "Reads the home/current-goal file and central index, then only the active topic README and journal; does not load other topic journals by default.",
+      "Records the learner’s proposed approach and the guidance needed.",
+      "Marks acceptance as the learner’s report, not as independently verified fact.",
+      "Records the learner’s wish to derive the key step independently and keeps that distinct from observed evidence.",
+      "Does not infer mastery from the accepted submission and proposes changes for review without creating unagreed files.",
+      "Does not commit or push journal data without separate authorization."
     ]
   }
 }
