@@ -94,3 +94,14 @@ Look for:
 - Keeps the central LEARNING-JOURNAL.md a small topic index with only cross-topic notes.
 - For a later session, reads the home/current-goal file, central index, and only the current topic README and journal by default.
 - Records learner-reported acceptance separately from demonstrated understanding and does not infer mastery from commits or submissions.
+
+## Scenario 10: Topic question bank across lessons
+
+Prompt: “Add two reusable questions from today's arrays lesson to my agreed topic bank, then quiz me on one. Do not record my attempts.”
+
+Look for:
+- Uses the agreed central index and active topic bank only; does not read other topic banks by default.
+- Grounds each question and answer key or rubric in covered material, with source references and uncertainty marked.
+- Keeps prompts, keys, explanations, and sources in the bank; does not save the learner's attempt without permission.
+- Asks one question and withholds its answer until the learner responds.
+- Gives evidence-based feedback without treating one answer as proof of mastery.

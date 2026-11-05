@@ -3,7 +3,9 @@
   "positive_triggers": [
     "Quiz me on the topics we have covered and identify gaps.",
     "Prepare me for the current format of this professional qualification exam.",
-    "Run a mock interview for a junior backend role and give evidence-based feedback."
+    "Run a mock interview for a junior backend role and give evidence-based feedback.",
+    "Add reusable questions and answer keys from this lesson to my existing topic bank.",
+    "Quiz me from my active topic bank without showing the answers first."
   ],
   "negative_triggers": [
     "Teach me this topic from scratch without testing me.",

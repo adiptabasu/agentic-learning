@@ -30,7 +30,7 @@ For timed practice, specify the conditions:
 
 > Give me an unofficial practice set for [exam/topic] with [number] questions and [time limit]. Match the current format only where verified. Tell me whether the questions are original practice or official released questions. Save the answer key until I finish.
 
-Use the results to adjust the learning plan. Ask for a new set if you want another attempt; repeating the same answers may test memory rather than transfer.
+Use the results to adjust the learning plan. Ask for a new set if you want another attempt; repeating the same answers may test memory rather than transfer. If you opted into a question bank, ask to add useful original practice questions with answer keys or rubrics and verified sources. Keep official released questions clearly distinguished from generated practice.
 
 ## Keep the record current if you chose a journal
 

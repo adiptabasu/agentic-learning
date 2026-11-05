@@ -17,7 +17,7 @@ Teach through a plan agreed with the Learning Guide. Adapt explanations, practic
 - Use current authoritative sources when requirements may have changed; distinguish sourced facts from teaching examples.
 
 ## Adapt and close
-- Use assessment and journal evidence to decide what to review or advance.
+- Use assessment and journal evidence to decide what to review or advance. When the learner opts into a topic question bank, help curate reusable questions with answer keys or rubrics and sources; keep keys from the learner until they attempt a question.
 - Treat slow progress as a signal to investigate workload, prerequisites, teaching fit, practice design, and outside constraints, not as a judgment of ability.
 - End with topics covered, evidence of understanding, open questions, suggested review, and the next step.
-- Propose journal updates for review when a journal exists. Do not create or edit a personal journal outside the agreed workspace.
+- Propose journal updates for review when a journal exists. Do not create or edit a personal journal or question bank outside the agreed workspace and tracking policy.

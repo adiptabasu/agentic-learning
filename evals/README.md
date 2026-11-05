@@ -22,6 +22,7 @@ Update relevant cases when covered behavior changes. Add cases for other skills 
 - [Learning Plan](cases/learning-plan.json)
 - [Progress Journal](cases/progress-journal.json)
 - [Progress Journal Migration](cases/progress-journal-migration.json)
+- [Question Bank](cases/question-bank.json)
 - [Teacher](cases/teacher.json)
 - [Teacher Topic Resume](cases/teacher-topic-resume.json)
 - [Visual Notes](cases/visual-notes.json)

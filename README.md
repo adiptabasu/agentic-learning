@@ -26,7 +26,7 @@ Because this repository starts without .agents/skills/, initialize is not initia
 2. **Confirm understanding.** The guide summarizes the goal and starting point so you can correct them. It distinguishes known facts, estimates, assumptions, and unknowns.
 3. **Agree on a plan.** Build an ordered route with topics, prerequisites, milestones, practice, evidence of progress, and review points. Estimates are labeled and provided only when justified.
 4. **Study with the Teacher.** Discuss how you prefer to study, then work through the agreed route with explanations, examples, and practice.
-5. **Check progress.** Use assessments for covered topics or goal-specific preparation such as qualification tests and mock interviews. Results are evidence about specific material, not a guarantee of mastery, passing, or hiring.
+5. **Check progress.** Use assessments for covered topics or goal-specific preparation such as qualification tests and mock interviews. An optional topic-based question bank can preserve reusable questions, answer keys or rubrics, and sources for later practice. Results are evidence about specific material, not a guarantee of mastery, passing, or hiring.
 6. **Keep history if wanted.** A journal is optional. Choose a private workspace and agree on its location before creating one. Blank formats are in templates/.
 7. **Adapt the route.** Revisit older material and adjust the plan when goals, constraints, or evidence change.
 
@@ -39,7 +39,7 @@ The Learning Guide should be candid and respectful. It should not promise succes
 - AGENTS.md — shared project guidance for agents that read this convention.
 - personas/ — portable Learning Guide and Teacher behavior definitions.
 - skills/ — canonical, tool-independent skill sources.
-- templates/ — blank formats for an optional central journal index, topic journal, session notes, and a repo-local learning continuity index.
+- templates/ — blank formats for optional topic question banks, journal indexes, topic journals, session notes, and a repo-local learning continuity index.
 - evals/ — manual workflow scenarios and skill-specific evaluation cases.
 - scripts/sync_skills.py — copies canonical skill files into a selected host's native skill folder.
 - No host-specific skills folder is included until a learner selects and initializes a host.
@@ -77,13 +77,19 @@ The host choices are abacus, codex, claude, or all. The script is an optional wa
 - **teacher:** Entry workflow for starting or resuming instruction from an agreed plan.
 - **learning-plan:** Produces an ordered, adjustable path after the goal is understood.
 - **progress-journal:** Maintains a small central index and topic-specific records with learner-reviewed, evidence-aware updates.
-- **assessment:** Provides topic checks and goal-related practice tests or interviews.
+- **assessment:** Provides topic checks, maintains an optional topic-based question bank, and supports goal-related practice tests or interviews.
 - **visual-notes:** Produces visual summaries suited to the material.
 - **writing:** Drafts or edits natural, audience-appropriate content and specific, accurate commit messages without generic AI filler.
 - **workspace-intake:** Creates an agreed workspace or inspects an existing learning repository.
 - **git-updates:** Applies the learner's Git policy and respects authorization before commits and pushes.
 
 These canonical skill files are not automatically host shortcuts until a native folder has been set up or the host is explicitly told to read the skill file.
+
+## Optional topic question banks
+
+A question bank is an optional learning record. Agree on its paths, contents, and Git policy before creating one. Use a small central `QUESTION-BANK.md` index with links to topic-specific `<topic>/QUESTION-BANK.md` files beside the relevant materials. The index stays small; question prompts, answer keys or rubrics, explanations, and sources live with each topic. Use `templates/question-bank-index-template.md` and `templates/topic-question-bank-template.md` as blank starting points.
+
+Question banks preserve useful practice across lessons. During a quiz, the Teacher or Assessment workflow withholds the key until the learner attempts the question. Keep learner attempts separate from the answer key; save attempts or scores only if the learner opts in, in the agreed journal or attempt log. Questions must be grounded in material covered or assigned, and uncertain or time-sensitive answers must be marked for review.
 
 ## Optional learner workspaces and journals
 
