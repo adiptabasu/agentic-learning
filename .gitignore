@@ -17,3 +17,6 @@ venv/
 /.abacusai/
 /.agents/
 /.claude/
+
+# Local work session scratch
+/sessions/work/
