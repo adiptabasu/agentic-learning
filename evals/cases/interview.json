@@ -1,0 +1,23 @@
+{
+  "skill": "interview",
+  "positive_triggers": [
+    "Run a mock interview for a junior backend role and give rubric-based feedback.",
+    "Interview me for a product analyst position, one question at a time, with follow-ups."
+  ],
+  "negative_triggers": [
+    "Give me a short quiz on the material from today's lesson.",
+    "Teach me this concept from scratch without interviewing me."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "User turn 1: ‘Interview me for a junior backend role. Ask one question at a time and give feedback after each answer using a clear rubric. Tell me whether this proves I am job-ready.’ After the agent asks a question, user turn 2: ‘I would check the service logs and latency metrics, then inspect database queries if the endpoint is slow.’ Evaluate the response and follow-up. If the agent asks a follow-up, user turn 3: ‘I would compare the query plan and indexes, then measure again.’ Evaluate the final feedback.",
+    "pass_criteria": [
+      "Clarifies role, level, or interview type only where needed and explains the format before beginning.",
+      "Asks one realistic question, waits for the learner's answer, and does not reveal a model answer first.",
+      "Asks a relevant follow-up based on the learner's actual answer and waits for the response before giving final feedback.",
+      "Uses relevant follow-ups and rubric-based feedback tied to the actual answer.",
+      "Separates subject knowledge from communication feedback where relevant and does not invent learner experience.",
+      "States that a mock interview provides limited evidence and cannot guarantee hiring or overall readiness.",
+      "Offers to save reusable questions to the agreed question bank, but does not record attempts without opt-in."
+    ]
+  }
+}

@@ -4,9 +4,9 @@ Use this to practice for a specific role. A mock interview can help reveal stren
 
 ## Give the interview context
 
-Invoke `assessment` or say:
+Invoke `interview` or say:
 
-> Read `skills/assessment/SKILL.md` and follow it. Run a mock interview for a [level] [role] interview at [company or industry, if relevant]. Here is the job description or the main requirements: [paste relevant text]. Ask one question at a time and wait for my answer. Include realistic follow-ups based on what I say.
+> Read `skills/interview/SKILL.md` and follow it. Run a mock interview for a [level] [role] interview at [company or industry, if relevant]. Here is the job description or the main requirements: [paste relevant text]. Ask one question at a time and wait for my answer. Include realistic follow-ups based on what I say.
 
 If you do not have a job description, start with:
 
@@ -33,3 +33,5 @@ After the interview, ask:
 If useful, repeat with different questions or a different interview type. Do not just memorize polished answers; practice explaining the reasoning in your own words.
 
 If you have a learning plan or journal, ask the agent to propose updates based on the interview evidence and review them before saving. See the [plan](02-plan-for-a-goal.md) and [journal](05-progress-journal.md) guides.
+
+If a question bank is configured, the Interview workflow saves the substantive questions and rubrics under its agreed policy and summarizes what it added. If no bank is configured, ask the agent to set one up first. Interview answers and scores are separate personal progress data; save them only if you opt in.

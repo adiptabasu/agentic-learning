@@ -1,32 +1,28 @@
 ---
 name: assessment
-description: Assess covered topics, maintain an optional question bank, or prepare for a goal-related test, qualification, or interview.
+description: Check a learner's subject knowledge, diagnose gaps, review progress, or prepare for a qualification using evidence-aware assessments.
 ---
 # Assessment
 
-Clarify the target, covered material, desired difficulty and format, and whether feedback should come during or after an assessment. Use one question bank workflow for both building and practicing a learner-approved topic bank; do not require one for ordinary lessons or quizzes.
+Use this skill for a subject diagnostic, topic quiz, milestone check, exam preparation, or readiness check. Use `skills/interview/SKILL.md` for a mock interview and `skills/question-bank/SKILL.md` to maintain a reusable question bank.
 
-## Optional topic question bank
+## Plan the assessment
 
-A bank is an optional learner record. Create it only after agreement on its contents, paths, and Git policy. For a multi-topic workspace, use a small central `QUESTION-BANK.md` index linking to topic-specific `<topic>/QUESTION-BANK.md` files beside relevant materials. Adapt to the learner's agreed layout; do not impose or create a personal workspace. When resuming, read the central index and only the active topic's bank and source materials. Do not load every topic bank by default.
+- Clarify the subject, what has been taught or assigned, purpose, relevant level, desired length and format, and when feedback should be given. Do not test unrelated material without agreement.
+- A Teacher may recommend an assessment when a prerequisite gap, milestone, repeated difficulty, or readiness decision makes one useful. Explain what it could clarify and wait for the learner's choice before starting.
+- For a baseline check, start with a small, low-stakes sample that can reveal prerequisite gaps. Do not turn uncertainty into a judgment about ability.
+- For qualifications or changing requirements, verify current format and requirements from authoritative sources when possible; state when checked and distinguish official items from generated practice.
+- Explain the format and scoring before beginning. Ask one question at a time by default unless the learner requests a full set.
 
-When adding questions, use material actually covered or explicitly assigned. Keep useful questions, not every prompt from a lesson. Each entry should include, as relevant:
+## Assess and give feedback
 
-- Stable question ID, topic, and learning objective.
-- Question, type, and difficulty.
-- Optional progressive hints.
-- Answer key and explanation for objective questions, or acceptable answer elements and a rubric for open-ended questions.
-- Source path or link and a section, revision, or check date when it matters.
-- A clear `needs review` note if the answer, source, or currentness is uncertain.
+- Ground questions in covered or assigned material, the confirmed learning goal, or verified exam requirements. Vary recall, explanation, application, and transfer when appropriate.
+- Do not reveal answers before the learner tries unless they ask. Give progressive hints only when requested or agreed.
+- Tie feedback to the actual answer and the relevant concept or rubric. Distinguish content knowledge from recall, interpretation, time pressure, or application only when evidence supports that distinction.
+- Report what the assessment supports and its limits. A short quiz is not proof of broad mastery or guaranteed exam success.
+- Recommend focused review or a different follow-up check when useful. Do not save attempts, hints used, scores, or confidence without opt-in.
+- If an agreed topic bank is configured, use `skills/question-bank/SKILL.md` to save the substantive assessment questions asked, with keys, explanations, and sources, under the agreed policy. If no bank exists, propose setup and keep proposed entries in the conversation until its location and Git policy are agreed. Keep attempts and results separate in an agreed journal or attempt log.
 
-Avoid duplicates and vary recall, explanation, application, and transfer. Distinguish original practice from official released items. For changing exam or professional requirements, verify current authoritative sources; do not label generated questions as official. Do not present a disputed or uncertain answer as definitively correct.
+## Close assessment mode
 
-Keep learner attempts separate from answer keys. Do not reveal the key or rubric before the learner tries, unless they ask. Record attempts, hints used, scores, or review dates only when the learner opts in; put that personal history in the agreed topic journal or attempt log, not over the answer key. A quiz request alone does not authorize saving responses. Propose new bank entries or updates for review before saving unless the learner has clearly authorized that specific update.
-
-## Assess
-
-For learning checks, assess covered material and identify gaps without claiming a short quiz proves broad mastery. Explain the format and scoring before starting. Ask one question at a time for interview practice unless the learner prefers a full set. Provide explanations and evidence-based feedback after the learner responds. Distinguish knowledge gaps from recall, interpretation, time pressure, or application issues only when evidence supports it.
-
-For external exams or credentials, verify current format and requirements from authoritative sources when possible; label practice as unofficial unless it is an official released item. For interviews, clarify the role and level, use realistic questions and follow-ups, and score open-ended responses against a clear rubric rather than a single memorized answer.
-
-Report readiness as a bounded assessment, never a guarantee of passing or hiring. Suggest review topics and another attempt with different questions when useful. If the learner has agreed topic journals, propose assessment results and evidence for the relevant topic journal, and update a central journal index only for genuinely cross-topic notes. Do not create journals, banks, or workspaces unless agreed.
+Summarize topics checked, observed evidence, gaps or uncertainty, suggested review, and a concrete next step. Propose a journal update only when a journal exists and the learner agrees to review it. Then state that Assessment mode is closed.

@@ -1,23 +1,23 @@
 {
   "skill": "assessment",
   "positive_triggers": [
-    "Quiz me on the topics we have covered and identify gaps.",
+    "Check my understanding of the topics we have covered and identify gaps.",
     "Prepare me for the current format of this professional qualification exam.",
-    "Run a mock interview for a junior backend role and give evidence-based feedback.",
-    "Add reusable questions and answer keys from this lesson to my existing topic bank.",
-    "Quiz me from my active topic bank without showing the answers first."
+    "Give me a short diagnostic on the prerequisites for this topic.",
+    "Prepare me for the current format of this professional qualification exam."
   ],
   "negative_triggers": [
     "Teach me this topic from scratch without testing me.",
-    "Make a long-term learning plan from my career goal."
+    "Make a long-term learning plan from my career goal.",
+    "Interview me for a junior backend role."
   ],
   "behavioral_evaluation": {
-    "prompt": "Interview me for a junior backend role. Ask one question at a time and give feedback after each answer. Tell me whether this guarantees I am job-ready.",
+    "prompt": "I have just studied recursion. Give me a short, low-stakes check of the idea and one application problem. Tell me what the answers can and cannot show about my understanding.",
     "pass_criteria": [
-      "Clarifies role context if material and explains the practice format or scoring before starting.",
-      "Asks one realistic interview question, waits for the learner's response, and does not reveal the answer first.",
-      "Gives feedback tied to explicit criteria and the actual response.",
-      "States that a mock interview cannot guarantee hiring or overall readiness."
+      "Checks only material that has been covered or agreed as a prerequisite.",
+      "Explains the short assessment format and asks one question at a time by default.",
+      "Uses the learner's answers to identify specific gaps and a useful next step without claiming broad mastery.",
+      "Keeps the check low-stakes and does not save attempts or scores without opt-in."
     ]
   }
 }

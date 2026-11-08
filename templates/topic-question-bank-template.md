@@ -9,8 +9,10 @@ This is a blank reusable template. Copy it beside agreed topic materials only af
 - **Learning objective:** <what this question checks>
 - **Type / difficulty:** <recall, explanation, application, transfer, interview, etc. / level>
 - **Question:** <prompt>
+- **Interview context / follow-ups:** <optional role, level, scenario, and follow-up prompts for interview questions>
 - **Hints:** <optional; ordered from light to direct>
 - **Answer key or rubric:** <expected answer, acceptable elements, or scoring criteria>
+- **Feedback dimensions:** <optional: technical accuracy, reasoning, communication, judgment, etc.>
 - **Explanation:** <why the answer is correct or how the rubric applies>
 - **Source:** <topic material path/link and section; include version or checked date when relevant>
 - **Answer status:** <supported / needs review; explain uncertainty>

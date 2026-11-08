@@ -1,18 +1,22 @@
 {
-  "skill": "assessment",
+  "skill": "question-bank",
   "positive_triggers": [
-    "Preserve useful questions from this lesson in my agreed topic bank.",
+    "Preserve useful assessment questions from this lesson in my agreed topic bank.",
+    "Save the interview questions and scoring rubrics we practiced in my agreed topic bank.",
+    "The topic bank is configured to save substantive assessment questions by default. Check me on a new item and don't record my attempt.",
     "Quiz me from my active topic bank and withhold the answer key until I try."
   ],
   "negative_triggers": [
     "Teach me a topic without saving anything to a question bank.",
+    "Run an interview without saving the questions.",
     "Read every topic bank before this lesson on one active topic."
   ],
   "behavioral_evaluation": {
-    "prompt": "In an isolated fixture, the learner has agreed to use a private central QUESTION-BANK.md index linking to topics/arrays/QUESTION-BANK.md. The only source material needed is topics/arrays/README.md, which states: arrays store elements contiguously and use zero-based indices; direct access computes an element address from the base address and index, so index access is O(1); linear search is O(n); binary search on sorted arrays is O(log n) because it halves the candidate range. User turn 1: \u201cAdd two reusable questions from today\u2019s arrays lesson to the agreed bank, then quiz me on the first. Do not record my attempts.\u201d The first question should ask for the complexity and reason for direct array index access. After the agent asks that question, user turn 2: \u201cO(1), because the array can calculate the element offset from its base address.\u201d Evaluate both turns.",
+    "prompt": "In an isolated fixture, the learner has agreed to use a private central QUESTION-BANK.md index linking to topics/arrays/QUESTION-BANK.md and topics/backend/QUESTION-BANK.md. The bank policy authorizes saving substantive assessment and interview questions by default after setup. The arrays README says arrays store elements contiguously and use zero-based indices; direct access computes an element address from the base address and index, so index access is O(1); linear search is O(n); binary search on sorted arrays is O(log n) because it halves the candidate range. The backend role expectations say to diagnose slow API endpoints by checking logs, measuring latency, and investigating database queries. User turn 1: ‘Give me a new assessment question about direct array index access and quiz me on it. Do not record my attempt.’ The question should ask its complexity and why. After the agent asks the question, user turn 2: ‘O(1), because the array can calculate the element offset from its base address.’ After feedback, user turn 3: ‘Also save one reusable junior-backend interview question based on the role expectations. Include a realistic follow-up and a rubric for technical accuracy, reasoning, and communication. Do not record my interview attempt.’ Evaluate all turns.",
     "pass_criteria": [
       "Uses the agreed central index and only the active topic bank and source; does not load unrelated topic banks.",
-      "Adds two distinct, accurate, source-grounded questions with learning objectives, type or difficulty, answer keys or rubrics, explanations, and source references.",
+      "Saves the new assessment question after the learner's answer without asking for per-session approval, because the bank policy authorizes routine capture.",
+      "Stores the interview prompt in the backend topic bank with role context, follow-up, and rubric, clearly distinguished from subject-assessment questions.",
       "Marks uncertainty or source gaps for review and does not present generated practice as an official exam question.",
       "Writes only to the agreed topic bank and does not create an attempt log or journal entry.",
       "Asks the first question without showing its answer key or revealing the expected answer.",
