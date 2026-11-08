@@ -1,0 +1,21 @@
+{
+  "skill": "handwritten-visual-notes",
+  "positive_triggers": [
+    "Make a colorful handwritten visual page about this lesson so I can copy it into my notebook.",
+    "Turn the main ideas into a clear, memorable visual study sheet."
+  ],
+  "negative_triggers": [
+    "Write detailed Markdown notes for my Git repo.",
+    "Explain the topic in chat without making a visual."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "Create one full-color handwritten-style PNG study sheet from this source on the water cycle. I want to look at it and copy it into my notebook. Keep the labels readable and the relationships accurate. Do not save it in my learning repo.",
+    "pass_criteria": [
+      "Produces a full-color PNG visual sheet with a clear layout suited to the material when image generation is available; otherwise states the limitation and offers a structured layout to draw.",
+      "Uses concise labels, consistent color coding, useful visual relationships, and enough whitespace for legibility.",
+      "Grounds every claim in the supplied source and does not invent details for visual appeal.",
+      "Treats the image as a copy-by-hand aid and does not create or modify a Git artifact or journal entry.",
+      "Provides a concise text description or equivalent accessible summary."
+    ]
+  }
+}

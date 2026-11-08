@@ -14,6 +14,8 @@ Example:
 
 You can also say what you already know or where you get stuck. If you don't know your level, say so; the Teacher should begin with a useful explanation and adjust from your responses.
 
+The Teacher may recommend a short diagnostic or milestone assessment when it would help identify a prerequisite gap or decide what to review next. It should explain the purpose and ask before testing you. You can accept, decline, or keep learning first.
+
 ## During the lesson
 
 Try the practice question before asking for the answer. If you are stuck, ask for a hint:
@@ -33,5 +35,7 @@ Ask for a quick understanding check:
 Ask the Teacher to summarize:
 
 > Summarize what we covered, what my answers showed I understand, and what remains unclear. Suggest one useful next step.
+
+If the Teacher recommends an assessment, it should be a suggestion rather than an automatic quiz. For a formal check, ask it to use `skills/assessment/SKILL.md`. For detailed Markdown notes or colorful copy-by-hand visual notes, see the separate [study notes](14-study-notes.md) and [handwritten visual notes](09-visual-notes.md) guides.
 
 You can stop there. A journal is optional. If you want to continue this topic in a future session, choose a workspace and agree on what to save before asking the agent to create or update records.

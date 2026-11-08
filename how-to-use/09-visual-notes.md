@@ -1,20 +1,20 @@
-# Create visual notes for a topic
+# Create handwritten visual notes for a topic
 
-Use this when a visual summary would help you understand relationships, steps, time order, or differences. A diagram is optional; a clear text outline may work better for some material.
+Use this when you want a colorful, handwritten-style PNG page to view and copy into your physical notebook. For detailed Markdown notes intended for a Git repository, use the [study notes guide](14-study-notes.md).
 
 ## Ask for a visual summary
 
-Invoke `visual-notes` or say:
+Invoke `handwritten-visual-notes` or say:
 
-> Read `skills/visual-notes/SKILL.md` and follow it. Make visual notes for [topic] using the material we covered or this source: [lesson/file/link]. I want to use them to [remember a process / compare ideas / see relationships / review before an assessment]. Choose a suitable format and explain the main relationships in plain language. Mark any uncertain connection rather than guessing.
+> Read `skills/handwritten-visual-notes/SKILL.md` and follow it. Make one colorful handwritten-style PNG study sheet for [topic] using the material we covered or this source: [lesson/file/link]. I want to view it and copy it into my notebook. Choose a layout that fits the material, keep it readable, and mark any uncertain connection rather than guessing. Do not save it to Git.
 
-Examples of useful format choices:
+Useful visual elements may include:
 
-- Concept map: “Show how [concepts] relate and which are prerequisites.”
-- Flowchart: “Map the steps in [process], including decision points.”
-- Timeline: “Put these events or stages in order and label what changes at each step.”
-- Comparison: “Compare [A] and [B] by purpose, inputs, outputs, and when to use each.”
-- Annotated example: “Label each step in this worked example and explain why it is there.”
+- A compact concept map showing how [concepts] relate.
+- A flow or cycle with arrows that accurately show the steps.
+- A comparison of [A] and [B] with a few memorable labels.
+- A worked example with key steps annotated.
+- A small color key that stays consistent across the page.
 
 ## Improve the result
 
@@ -28,10 +28,10 @@ Or ask for a different representation:
 
 Check whether the visual reflects what was actually taught. If the diagram adds a relationship that was not established, ask the agent to label it as a hypothesis or remove it.
 
-## Save or export only if useful
+## Keep the purpose clear
 
-If you want a file, specify the format and destination before asking for an export:
+The PNG is a visual reference for hand-copying. It is separate from detailed Markdown study notes. By default it is not written to the learning repo; if you want to keep the image there, specify the exact path and Git policy:
 
-> Save this as [format] at [path]. Keep the source material linked or cited where appropriate. Do not add it to my journal or Git unless I ask.
+> Save the PNG at [path] in my learning repo. Keep the source material cited. Do not add it to my journal.
 
 After using the notes, tell the agent whether they helped; it can revise them based on what was confusing.

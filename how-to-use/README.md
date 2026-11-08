@@ -16,11 +16,12 @@ These guides show what to say, what to expect, and how to continue. Start with t
 - [Bring in an existing learning repository](06-existing-learning-repo.md)
 - [Prepare for an exam or qualification](07-exam-preparation.md)
 - [Practice for a job interview](08-mock-interview.md)
-- [Create visual notes for a topic](09-visual-notes.md)
+- [Create handwritten visual notes to copy by hand](09-visual-notes.md)
 - [Make skills available in your agent](10-initialize-agent.md)
 - [Choose what to track and publish with Git](11-git-and-publishing.md)
 - [Convert an existing Git learning repo for easy resumption](12-convert-existing-learning-repo.md)
 - [Keep a topic-based question bank](13-question-bank.md)
+- [Create detailed Markdown study notes](14-study-notes.md)
 
 ## Before you start
 

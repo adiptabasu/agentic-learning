@@ -7,6 +7,7 @@
   ],
   "negative_triggers": [
     "Explain the concept to me in a short lesson without making a visual.",
+    "Make a colorful handwritten PNG study sheet that I can copy into my notebook.",
     "Write a natural-sounding email summarizing my study progress."
   ],
   "behavioral_evaluation": {

@@ -1,0 +1,21 @@
+{
+  "skill": "study-notes",
+  "positive_triggers": [
+    "Turn this lesson into detailed Markdown notes I can keep in my learning repo.",
+    "Make study notes with clear explanations, examples, and review questions from these sources."
+  ],
+  "negative_triggers": [
+    "Make a colorful handwritten-style page I can copy into my notebook.",
+    "Quiz me on the topic without making notes."
+  ],
+  "behavioral_evaluation": {
+    "prompt": "Using only the attached lesson on recursion, create detailed Markdown study notes for my agreed learning repo. Include definitions, a step-by-step example, common mistakes, and review prompts. Preserve source links. Do not save the file until I approve the proposed path and content.",
+    "pass_criteria": [
+      "Produces readable, well-organized Markdown grounded in the supplied lesson and cites its source location.",
+      "Explains the concept, worked example, and common mistakes accurately without padding or invented claims.",
+      "Includes useful review prompts without exposing answers prematurely when they are intended for practice.",
+      "Shows the proposed destination and waits for approval before writing to the learner's workspace.",
+      "Does not confuse detailed Markdown study notes with the copy-by-hand handwritten visual PNG workflow."
+    ]
+  }
+}
