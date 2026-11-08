@@ -16,7 +16,16 @@ Invoke `git-updates`, or say:
 
 > Read `skills/git-updates/SKILL.md` and follow it. Inspect this repo's current branch, remote, status, and diffs. I may want to publish [brief description]. First show me the exact files and content that would be included, identify private or unexpected data, and recommend a commit message. Do not stage, commit, or push yet.
 
-Review the file list and diff. Ask for exclusions or corrections. A good commit message describes the change actually present; it should not claim checks or tests you did not run.
+Review the file list and diff. Ask for exclusions or corrections. A good commit message describes the change actually present; it should not claim checks or tests you did not run. For this repository, every commit needs a specific subject and a detailed body explaining why and what changed, and stating which checks were actually run (or that none were run). For example:
+
+```text
+feat(learning): add confirmed Teacher handoff
+
+Add a Learning Brief template and update the Counselor and Teacher workflows
+to review the brief before instruction begins.
+
+Checks: none run.
+```
 
 ## Authorize each action you want
 

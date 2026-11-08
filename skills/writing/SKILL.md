@@ -20,7 +20,7 @@ Use this skill when drafting or editing prose, including documentation, learning
 When asked to prepare a commit message, inspect the staged diff, or the intended change if it is not staged, and use the repository's established convention when one is clear. Describe the actual change and its purpose; do not infer intent beyond the evidence.
 
 - Keep the subject specific and concise. A conventional form such as `type(scope): imperative summary` is a useful default only when it fits the repo's style; do not force it.
-- Add a body when it explains a meaningful reason, behavior change, or trade-off that the subject cannot convey. Omit boilerplate and restatements of the diff.
+- Follow repository and learner requirements for message depth. In this repository, every commit message needs a detailed body explaining why and what changed, plus verification actually run or explicitly not run. Omit boilerplate and unsupported claims.
 - Mention tests or verification only when they were actually run and their results are known. Do not invent issue numbers, breaking changes, or affected behavior.
 - If the change has multiple unrelated parts, flag that the scope may deserve separation instead of disguising it with a vague subject.
 - Writing or suggesting a message does not authorize staging, committing, or pushing. Follow the repo's Git policy and the learner's action-specific authorization.
