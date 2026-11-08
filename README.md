@@ -100,7 +100,11 @@ Question banks preserve assessment and interview practice across lessons. Assess
 
 Personal learning data is not created automatically. Before creating a journal or topic workspace, agree on its name, exact location, contents, and whether it belongs in Git. Keep private notes and personal progress out of this shared learning system by default.
 
-Use templates/learning-brief-template.md for the counselor-to-Teacher handoff, templates/learner-journal-template.md for the central index, and templates/topic-journal-template.md for topic records. The central LEARNING-JOURNAL.md is a small index to topic journals and holds only genuinely cross-topic notes. Keep detailed reflections and problem history beside the relevant topic materials. At session start, read the agreed learning home and Learning Brief, then the journal index and only the active topic README and journal by default. Record the learner’s proposed approach, guidance needed, learner-reported acceptance, and what they want to derive or revisit; distinguish reports from demonstrated evidence. A completed file, commit, or accepted submission alone does not demonstrate mastery.
+Use templates/learning-brief-template.md for the counselor-to-Teacher handoff, templates/learner-journal-template.md for the central index, and templates/topic-journal-template.md for topic records. The central LEARNING-JOURNAL.md is a small index to topic journals and holds only genuinely cross-topic notes. Keep detailed reflections and problem history beside the relevant topic materials. At session start, begin with the agreed learning home and Learning Brief; read the journal index and active topic README or journal only when needed for the next step. Record the learner’s proposed approach, guidance needed, learner-reported acceptance, and what they want to derive or revisit; distinguish reports from demonstrated evidence. A completed file, commit, or accepted submission alone does not demonstrate mastery.
+
+## Keep session context small
+
+During normal learning, load the active skill and only the records needed for the next step. Start from the Learning Brief; follow its plan link only when route details are missing. Read the active topic journal, README, and question bank only when they add relevant context. Keep briefs near 200 words, omit empty fields, and link to detailed plans instead of repeating them. Do not load the full README, evaluation cases, templates, all skills, or unrelated topic records into an ordinary lesson.
 
 ## Existing learning repositories
 

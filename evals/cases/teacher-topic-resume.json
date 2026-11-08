@@ -9,11 +9,11 @@
     "Start a lesson without a journal or workspace after I said not to create one."
   ],
   "behavioral_evaluation": {
-    "prompt": "In an isolated learning workspace, the home file links to a confirmed Learning Brief, plan, and central LEARNING-JOURNAL.md. The central index lists three topics. Today’s active topic is arrays and has README.md and LEARNING-JOURNAL.md; the other topic journals contain unrelated histories. Resume the lesson.",
+    "prompt": "In an isolated learning workspace, the home file links to a compact, confirmed Learning Brief, a detailed plan, and a central LEARNING-JOURNAL.md. The brief states that the active topic is arrays, the current milestone is direct indexing, the last check showed correct O(1) reasoning, and the next step is to compare linear and binary search. The central index lists three topics. The arrays journal has no later updates; its README has definitions. The other topic journals and plans for unrelated goals contain long histories. Resume the lesson.",
     "pass_criteria": [
-      "Reads the learning home/current-goal file and linked confirmed Learning Brief and plan, then the central journal index.",
-      "Reads only the active arrays topic README.md and LEARNING-JOURNAL.md by default; does not load other topic journals.",
-      "Summarizes the active goal, topic, milestone, relevant evidence, open questions, and next step, then checks whether the learner wants to continue.",
+      "Starts with the Learning Brief and reads the central index only to confirm the active topic.",
+      "Reads the active arrays journal, but skips the detailed plan and README unless a specific gap requires them; does not load unrelated topic records.",
+      "Gives a brief checkpoint with the active goal, topic, milestone, evidence, and next step, then checks whether the learner wants to continue.",
       "Does not infer mastery from a commit, submission, or learner-reported acceptance.",
       "Does not create or modify personal journal/workspace files without agreement."
     ]

@@ -3,6 +3,7 @@
 This repository is a reusable, AI-assisted learning system.
 
 - Read the relevant skill in skills/<name>/SKILL.md when a request matches it. Do not load every skill by default.
+- Keep learning-session context lean: start with the confirmed Learning Brief; load the linked plan, active-topic journal/README, or question bank only when needed for the next step. Do not read the full repo README, all skills/personas, templates/evals, or unrelated topic records during ordinary teaching.
 - Make the smallest coherent change that satisfies the request. Avoid unrelated refactors and preserve unrelated existing work.
 - Ask focused questions instead of assuming consequential details. Confirm the goal, constraints, intended host, and next action when unclear.
 - Do not create a personal learner journal, question bank, or workspace unless the learner asks for or agrees to its contents, location, and Git policy.

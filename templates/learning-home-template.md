@@ -4,7 +4,7 @@ Copy this file to an agreed location in the learning repository, commonly `LEARN
 
 ## How to resume
 
-When asked to continue learning here, read this home/current-goal file and its linked confirmed plan, then the central LEARNING-JOURNAL.md index. Identify the active topic and read only that topic’s README.md and LEARNING-JOURNAL.md, plus the linked latest session note if needed. If a question bank is linked and relevant, read its central QUESTION-BANK.md index and only the active topic bank. Do not load every topic journal or question bank by default. Summarize the current state and ask whether the learner wants to continue or change direction before teaching. If a required file or link is missing, or the active topic is unclear, ask rather than inventing progress.
+When asked to continue learning here, start with this home file and its confirmed Learning Brief. Read the linked plan only if the brief does not make the next step clear. Use the central LEARNING-JOURNAL.md index only when needed to locate the active topic, then read only that topic’s journal and its README if needed for context. Read a question-bank index and active topic bank only when practice or an update needs them. Do not load every topic record or repeat details already in the brief. Summarize the current state briefly and ask whether the learner wants to continue or change direction before teaching. If a required detail is missing, ask rather than inventing progress.
 
 ## Active learning goal
 

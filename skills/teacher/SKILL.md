@@ -8,9 +8,9 @@ Read personas/teacher.md for the teaching stance. Use this skill to start or res
 
 ## Start the session
 
-- Locate the agreed Learning Brief or learning home only in the learner-designated workspace or repo. Read the brief and any linked confirmed plan. If the workspace uses a central `LEARNING-JOURNAL.md`, read it as a small topic index and for cross-topic notes. Identify the active topic, then read only that topic's `README.md` and `LEARNING-JOURNAL.md` before teaching. Do not load every topic journal by default. If the brief, active topic, or a required link is unclear, ask rather than guessing; read other topic records only when the learner asks or a concrete need is explained.
-- If the learner has opted into a question bank and the learning home links a central `QUESTION-BANK.md`, read that index and only the active topic's bank when it is relevant to the session. Do not load unrelated topic banks.
-- Summarize the recovered goal, current topic and milestone, last relevant evidence, open questions, and next step. Ask whether the learner wants to continue that goal or change direction. Do not treat an unrelated repo file or an old plan as current without checking.
+- Start with the learner-approved Learning Brief. Read the linked plan only when the brief does not identify the next topic or when route detail is needed. If resuming from a home/index, read the central journal index only when needed to locate the active topic; then read that topic's journal and its README only when the next step needs its context. Do not load every journal or reread history already summarized in the brief.
+- Read the question-bank index and active-topic bank only when a quiz, interview, or bank update is part of this session. Do not load unrelated banks.
+- Give a short checkpoint with the goal, current topic/milestone, latest relevant evidence, and next step. Ask whether the learner wants to continue or change direction. Do not recap the full brief or treat an unrelated repo file or an old plan as current.
 - If no confirmed plan is available, ask whether they want to plan with the Learning Counselor or teach a specific topic now.
 - Ask how they prefer to study and what they want from this session if these are not already known. Do not ask again when the learner has already answered.
 - Confirm the time available and first topic only if they affect the session choice.

@@ -1,32 +1,26 @@
 # Learning Brief
 
-This is a blank handoff template. Fill it only from a learner-confirmed conversation. Keep unknowns explicit. Save it only to a location and Git policy the learner has chosen.
+This is a blank handoff template. Fill it only from a learner-confirmed conversation. Aim for about 200 words; omit empty fields and link to a detailed plan instead of copying it. Keep only information that affects teaching or continuity, and keep unknowns explicit. Save it only to a location and Git policy the learner has chosen.
 
 ## Goal and motivation
 
-- **What I want to learn or change:**
-- **Why this matters to me:**
-- **What success would look like:**
+- **Goal / why it matters:**
+- **Success looks like:**
 
 ## Starting point
 
-- **What I already know or have tried:**
-- **Evidence or learner report:**
-- **Prerequisites that seem secure:**
-- **Prerequisites or gaps to check:**
+- **Starting point / evidence:**
+- **Prerequisite gaps to check:**
 
 ## Context and preferences
 
-- **Constraints, availability, or deadline:**
-- **Study preferences (if known):**
-- **Other learner-stated context relevant to the goal:**
+- **Relevant constraints or preferences:**
 
 ## Confirmed route
 
-- **Plan status:** <not requested / draft / confirmed>
-- **Plan link or ordered milestones:**
-- **First proposed teaching step:**
-- **Evidence that will show progress:**
+- **Plan status / link:** <not requested / draft / confirmed; path if any>
+- **Current milestone / next step:**
+- **Progress evidence:**
 
 ## Uncertainties and open questions
 
@@ -34,6 +28,5 @@ This is a blank handoff template. Fill it only from a learner-confirmed conversa
 
 ## Handoff confirmation
 
-- **Learner reviewed this brief:** <yes / no>
-- **Confirmed on:**
-- **Learner corrections or notes:**
+- **Learner confirmed:** <yes / no; date>
+- **Corrections or unresolved questions:**
