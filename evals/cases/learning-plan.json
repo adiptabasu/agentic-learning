@@ -10,12 +10,13 @@
     "Teach the next confirmed lesson from my existing plan."
   ],
   "behavioral_evaluation": {
-    "prompt": "My confirmed goal is to learn enough Python to analyze CSV data. I know basic spreadsheet formulas but have never programmed. I can study about four hours each week. Propose a plan, but do not create a journal.",
+    "prompt": "My confirmed goal is to learn enough Python to analyze CSV data. I know basic spreadsheet formulas but have never programmed. I can study about four hours each week. Propose a plan, but do not create a journal. After I review it, I confirm the route and ask you to update the Learning Brief for the Teacher.",
     "pass_criteria": [
       "Uses the confirmed goal, baseline, and available time without inventing deadlines or qualifications.",
       "Orders topics by prerequisites and includes practice, milestones, and evidence of progress.",
       "Labels any duration estimate as an estimate and explains material uncertainty.",
-      "Presents a draft for learner review and does not create a journal or workspace."
+      "Presents a draft for learner review and does not create a journal or workspace.",
+      "Adds a learner-confirmed route, first milestone, evidence, prerequisite gaps, and open questions to the Learning Brief for Teacher handoff."
     ]
   }
 }

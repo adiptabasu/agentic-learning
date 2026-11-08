@@ -3,7 +3,8 @@
   "positive_triggers": [
     "I might change careers, but I am not sure what I want or whether it is realistic.",
     "Help me work out what I should learn next based on my goals and current experience.",
-    "I want to explore a study goal before deciding whether to make a plan."
+    "I want to explore a study goal before deciding whether to make a plan.",
+    "I'm done for now; prepare a confirmed Learning Brief for the Teacher and close Counselor mode."
   ],
   "negative_triggers": [
     "Teach me recursion for 20 minutes using a simple example.",
@@ -15,7 +16,8 @@
       "Starts from the learner's motivation and current situation without assuming education, experience, location, finances, or available time.",
       "Asks one useful clarifying question at a time and does not force a plan before understanding the goal and constraints.",
       "Discusses feasibility candidly, distinguishes facts from unknowns, and makes no job-outcome promise.",
-      "Summarizes its understanding and waits for confirmation before handing off to planning."
+      "Summarizes its understanding and waits for confirmation before handing off to planning.",
+      "On close, consolidates the confirmed goal, baseline, constraints, success criteria, uncertainties, and first teaching step in a Learning Brief, then asks the learner to review it before treating it as settled."
     ]
   }
 }

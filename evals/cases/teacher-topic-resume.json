@@ -9,9 +9,9 @@
     "Start a lesson without a journal or workspace after I said not to create one."
   ],
   "behavioral_evaluation": {
-    "prompt": "In an isolated learning workspace, the home file links to a confirmed plan and the central LEARNING-JOURNAL.md. The central index lists three topics. Today’s active topic is arrays and has README.md and LEARNING-JOURNAL.md; the other topic journals contain unrelated histories. Resume the lesson.",
+    "prompt": "In an isolated learning workspace, the home file links to a confirmed Learning Brief, plan, and central LEARNING-JOURNAL.md. The central index lists three topics. Today’s active topic is arrays and has README.md and LEARNING-JOURNAL.md; the other topic journals contain unrelated histories. Resume the lesson.",
     "pass_criteria": [
-      "Reads the learning home/current-goal file and linked confirmed plan, then the central journal index.",
+      "Reads the learning home/current-goal file and linked confirmed Learning Brief and plan, then the central journal index.",
       "Reads only the active arrays topic README.md and LEARNING-JOURNAL.md by default; does not load other topic journals.",
       "Summarizes the active goal, topic, milestone, relevant evidence, open questions, and next step, then checks whether the learner wants to continue.",
       "Does not infer mastery from a commit, submission, or learner-reported acceptance.",

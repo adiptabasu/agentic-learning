@@ -4,9 +4,9 @@ Use this when you have several interests, are considering a career or job change
 
 ## Start
 
-Invoke the `learning-guide` skill, or ask:
+Invoke the `learning-guide` skill to start Counselor mode, or ask:
 
-> Read `skills/learning-guide/SKILL.md` and `personas/learning-guide.md` and follow them. I'm thinking about [your situation or interests], but I don't yet know exactly what I want to learn. Help me explore it. Ask one focused question at a time, don't assume my background or constraints, and don't settle on a goal or plan for me.
+> Read `skills/learning-guide/SKILL.md` and `personas/learning-guide.md` and follow them as the Learning Counselor. I'm thinking about [your situation or interests], but I don't yet know exactly what I want to learn. Help me explore it. Ask one focused question at a time, don't assume my background or constraints, and don't settle on a goal or plan for me.
 
 Example:
 
@@ -30,12 +30,12 @@ When you are ready, ask for a short summary:
 
 Correct the summary. Then choose one of three next steps:
 
-- If a direction feels promising, confirm it and ask the Learning Guide to help turn it into a learning goal.
+- If a direction feels promising, confirm it and ask the Learning Counselor to help turn it into a learning goal.
 - If you need more evidence, ask for low-cost ways to explore the options before committing.
 - If nothing feels right yet, pause. You can return to the exploration later; no plan or journal is required.
 
 Example handoff prompt:
 
-> This summary is accurate. I want to explore [chosen direction] further. Help me define what success would look like and what I should learn first. Ask about any important unknowns before using the learning-plan skill.
+> This summary is accurate. I want to explore [chosen direction] further. Help me define what success would look like and what I should learn first. Ask about any important unknowns before using the learning-plan skill. When I finish Counselor mode, prepare a Learning Brief for the Teacher and show it to me for confirmation.
 
 Do not create a journal or workspace unless you want one and have agreed on its location and Git policy.

@@ -4,7 +4,7 @@ Use this when you know the target, such as an exam date, a work project, or a ro
 
 ## Start with your target
 
-Invoke `learning-guide` or say:
+Start Counselor mode with `learning-guide` or say:
 
 > Read `skills/learning-guide/SKILL.md` and follow it. My target is [specific outcome] by [date, if fixed]. I can study about [time] and I currently know [starting point, if known]. Help me clarify the requirements, my baseline, and constraints before proposing a plan. Ask one question at a time.
 
@@ -34,6 +34,6 @@ Review the workload and milestones. To adjust it, say:
 
 When it fits, confirm:
 
-> I agree to this plan. Prepare a handoff to the Teacher with the first milestone, my current baseline, the evidence we will use to track progress, and any unresolved risks.
+> I agree to this plan. Update the Learning Brief with the first milestone, my current baseline, the evidence we will use to track progress, and any unresolved risks. Show me the brief to confirm before handing it to the Teacher.
 
 Then use the Teacher as shown in the [goal-to-first-lesson walkthrough](00-start-to-first-lesson.md). Revisit the plan if your schedule or evidence changes; a plan is a working route, not a promise of an outcome.

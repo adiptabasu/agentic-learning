@@ -4,15 +4,15 @@ Use this when returning to a learning repository in a new chat, on another compu
 
 ## Recover the learning state
 
-If the repo has an agreed learning home or current-goal file, begin there. If it links to a central LEARNING-JOURNAL.md, read that index, then only the active topic's README.md and LEARNING-JOURNAL.md. Do not load every topic journal by default. Read the linked confirmed plan and latest session note when needed to understand the next step.
+If the repo has an agreed learning home or current-goal file, begin there. Read its confirmed Learning Brief and linked plan. If it links to a central LEARNING-JOURNAL.md, read that index, then only the active topic's README.md and LEARNING-JOURNAL.md. Do not load every topic journal by default. Read the latest session note when needed to understand the next step.
 
 Ask the agent:
 
-> Use the teacher skill to resume my learning in this repository. Read the agreed learning home/current-goal file and confirmed plan, then the central LEARNING-JOURNAL.md index. For my current topic, read only its README.md and LEARNING-JOURNAL.md. Summarize my goal, current topic and milestone, relevant evidence, open questions, and next step. Ask whether I want to continue before teaching. Do not read other topic journals unless you explain why they are needed.
+> Use the teacher skill to resume my learning in this repository. Read the agreed learning home/current-goal file, confirmed Learning Brief and plan, then the central LEARNING-JOURNAL.md index. For my current topic, read only its README.md and LEARNING-JOURNAL.md. Summarize my goal, current topic and milestone, relevant evidence, open questions, and next step. Ask whether I want to continue before teaching. Do not read other topic journals unless you explain why they are needed.
 
 If shortcuts are unavailable:
 
-> Read skills/teacher/SKILL.md and follow it. For continuity, read [path to my learning home/current-goal file], the linked confirmed plan, the central LEARNING-JOURNAL.md index, and only [current topic path]/README.md and [current topic path]/LEARNING-JOURNAL.md.
+> Read skills/teacher/SKILL.md and follow it. For continuity, read [path to my learning home/current-goal file], its linked Learning Brief and confirmed plan, the central LEARNING-JOURNAL.md index, and only [current topic path]/README.md and [current topic path]/LEARNING-JOURNAL.md.
 
 If the current topic is unclear, clarify it before opening topic journals. Do not paste a whole journal into a prompt if the agent can read the agreed files locally. If it cannot access files, provide only relevant excerpts you are comfortable sharing.
 

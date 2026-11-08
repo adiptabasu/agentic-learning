@@ -14,6 +14,8 @@ For multi-topic learning, keep a small central LEARNING-JOURNAL.md as an index t
 
 Before proposing an update, read the existing history and the relevant topic README and journal only. For a session resume, use the agreed learning home/current-goal file, central index, and active topic records; do not load every topic journal by default. Preserve existing history and distinguish completed activities from demonstrated understanding.
 
+For cross-chat continuity, keep the agreed Learning Brief, confirmed plan, active milestone, relevant evidence, open questions, and next step easy to locate from the learner's chosen learning home. Do not treat a proposed or unconfirmed brief as the current goal. Record a brief reference or status in the home/index instead of duplicating the full plan and history across files.
+
 When recording a solved problem, capture where useful:
 
 - The problem or source and date.

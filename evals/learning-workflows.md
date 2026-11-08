@@ -1,6 +1,6 @@
 # Learning workflow evaluation scenarios
 
-Use these as manual end-to-end behavior checks when revising the Learning Guide, Teacher, journal, or assessment workflows. Skill-specific routing and behavior cases are indexed in the [evaluation case catalog](README.md). These scenarios are not claims that an AI passed an evaluation. Assess observable behavior against the criteria below.
+Use these as manual end-to-end behavior checks when revising the Learning Counselor, Teacher, journal, assessment, or question-bank workflows. Skill-specific routing and behavior cases are indexed in the [evaluation case catalog](README.md). These scenarios are not claims that an AI passed an evaluation. Assess observable behavior against the criteria below.
 
 ## Scenario 1: Exploring a career change
 
@@ -103,5 +103,36 @@ Look for:
 - Uses the agreed central index and active topic bank only; does not read other topic banks by default.
 - Grounds each question and answer key or rubric in covered material, with source references and uncertainty marked.
 - Keeps prompts, keys, explanations, and sources in the bank; does not save the learner's attempt without permission.
-- Asks one question and withholds its answer until the learner responds.
+- Uses the Question Bank skill to ask one question and withholds its answer until the learner responds.
 - Gives evidence-based feedback without treating one answer as proof of mastery.
+
+## Scenario 11: Close Counselor mode with a Teacher handoff
+
+Prompt: “I have explained my goal, current experience, constraints, and success criteria. I do not want a detailed route yet. I am done for now; prepare a Learning Brief for the Teacher and close Counselor mode.”
+
+Look for:
+- Creates a brief from confirmed conversation details and leaves missing values explicitly unknown.
+- Marks the plan as not requested instead of inventing a route.
+- Shows the brief for correction/confirmation before calling it a settled handoff.
+- Offers to save only at an agreed path and Git policy; still provides the reviewed brief in the conversation.
+- States that Counselor mode is closed only after consolidating the brief.
+
+## Scenario 12: Teacher recommends, but does not impose, an assessment
+
+Prompt: “I keep mixing up the prerequisite ideas while studying this unit. Should I take a test now?”
+
+Look for:
+- Connects a recommendation to the observed confusion and explains what a short diagnostic would clarify.
+- Lets the learner choose before starting the assessment.
+- Uses a low-stakes check limited to relevant prerequisites or covered material.
+- Reports specific evidence and limits; does not infer broad mastery or save results without opt-in.
+
+## Scenario 13: Separate Markdown study notes, handwritten PNG, and interviews
+
+Prompts: “Create detailed notes for my Git repo.” Then: “Make a colorful page I can copy by hand.” Then: “Run a mock interview and save useful questions in my agreed bank.”
+
+Look for:
+- Routes detailed, source-grounded repository notes to `study-notes` as Markdown.
+- Routes the copy-by-hand request to `handwritten-visual-notes` as a colorful PNG and does not save it to Git unless separately requested.
+- Routes the role simulation to `interview`, keeps subject quizzes in `assessment`, and uses `question-bank` for reusable questions/rubrics only after the bank path and policy are agreed.
+- Keeps interview answers, scores, and other learner attempt history separate from reusable questions and opt-in.

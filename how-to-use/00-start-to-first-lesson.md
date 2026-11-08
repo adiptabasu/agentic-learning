@@ -2,7 +2,7 @@
 
 Use this walkthrough when you have something you want to learn or prepare for and want help turning it into a realistic plan and a first teaching session. Replace bracketed text with your details. It is fine to say “I don't know yet.”
 
-## 1. Start with the Learning Guide
+## 1. Start with the Learning Counselor
 
 Invoke the `learning-guide` skill if your agent provides a shortcut. Otherwise, paste:
 
@@ -14,9 +14,11 @@ For example:
 
 Answer honestly. If you are unsure, say so; the guide should help explore the uncertainty rather than force a choice. Mention relevant facts such as prior experience, time available, location, budget, deadlines, or accessibility needs when they matter to your goal.
 
+You can start a mode explicitly by saying “Turn on Learning Counselor” or close it by saying “Turn off Learning Counselor.” The mode applies to this conversation. Closing it should produce a Learning Brief for your review; saving it for another chat is optional and requires an agreed location.
+
 ## 2. Clarify until the goal is understood
 
-The Learning Guide should ask about your motivation, what you know or have tried, constraints, and what would count as success. If it starts prescribing a course before understanding those things, steer it back:
+The Learning Counselor should ask about your motivation, what you know or have tried, constraints, and what would count as success. If it starts prescribing a course before understanding those things, steer it back:
 
 > Before recommending a route, please clarify my current level, constraints, and what outcome I actually need. Ask me the next most useful question.
 
@@ -42,7 +44,7 @@ Review the route. Ask for changes if the scope, pace, order, or workload does no
 
 When the plan is right, confirm it explicitly:
 
-> I agree to this plan. Treat it as our current plan. Prepare a handoff with my goal, starting point, constraints, success criteria, plan, first milestone, and anything still uncertain.
+> I agree to this plan. Treat it as our current plan. Update the Learning Brief with my goal, starting point, constraints, success criteria, plan, first milestone, and anything still uncertain. Show it to me to confirm before handing it to the Teacher.
 
 If you do not agree with the plan yet, continue revising it rather than treating it as settled.
 
@@ -56,7 +58,7 @@ If the handoff is not available in the current chat, paste the confirmed goal an
 
 ## 5. End the session and decide whether to save progress
 
-At the end, ask:
+At the end of Teacher mode, ask:
 
 > Summarize what we covered, what I demonstrated that I understand, what remains unclear, and the next step. Do not claim I mastered something unless the evidence supports it.
 
@@ -64,4 +66,4 @@ If you want a journal or a record that will let another agent resume after a clo
 
 ## What the full flow looks like
 
-**Learning Guide → your correction and confirmation → Learning Plan → your approval → Teacher → optional reviewed progress record.** You remain in control at each handoff. The agent should ask rather than assume, and the plan is not settled until you agree to it.
+**Learning Counselor → your correction and confirmation → Learning Brief and optional Learning Plan → Teacher → optional assessment, notes, and reviewed progress record.** Each mode should consolidate its work before closing. You remain in control at each handoff; the agent should ask rather than assume, and the plan is not settled until you agree to it.

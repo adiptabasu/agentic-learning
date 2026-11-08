@@ -9,6 +9,7 @@ When asked to continue learning here, read this home/current-goal file and its l
 ## Active learning goal
 
 - Goal file: `path/to/active-goal.md`
+- Learning Brief: `path/to/learning-brief.md`
 - Confirmed plan: `path/to/learning-plan.md`
 - Central journal index: `LEARNING-JOURNAL.md`
 - Central question bank index (optional): `QUESTION-BANK.md`

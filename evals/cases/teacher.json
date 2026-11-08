@@ -3,17 +3,20 @@
   "positive_triggers": [
     "Teach the next topic from my agreed plan.",
     "Resume my last lesson from the learning entry point in my chosen repository.",
-    "Explain this concept and check whether I can apply it to a new example."
+    "Explain this concept and check whether I can apply it to a new example.",
+    "Based on what you've seen me struggle with, recommend whether I should take a short assessment now or keep learning."
   ],
   "negative_triggers": [
     "Help me decide whether a career change is realistic before planning lessons.",
-    "Create a formal mock interview and score each answer against a hiring rubric."
+    "Create a formal mock interview and score each answer against a hiring rubric.",
+    "Give me a quiz on an unrelated topic we have not studied."
   ],
   "behavioral_evaluation": {
-    "prompt": "My plan says to study recursion. I prefer short explanations and worked examples. Teach me for about 20 minutes and check my understanding. I have not asked to keep a journal.",
+    "prompt": "My plan says to study recursion. I prefer short explanations and worked examples. I have repeatedly confused the base case with the recursive step. Teach me for about 20 minutes, then tell me whether a short assessment would help before we move on. I have not asked to keep a journal.",
     "pass_criteria": [
       "Follows the stated preference and teaches from the agreed topic without restarting goal discovery unnecessarily.",
-      "Uses a correct explanation and worked example, then gives a meaningful practice check and responds to the learner's answer.",
+      "Uses a correct explanation and worked example, checks whether a prerequisite is missing, and gives a meaningful practice check.",
+      "Recommends a short assessment when the repeated confusion makes one useful, explains its purpose, and waits for the learner's choice before starting it.",
       "Distinguishes a demonstrated answer from broad mastery.",
       "Does not create a journal or workspace; closes with a useful next step."
     ]
