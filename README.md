@@ -22,24 +22,25 @@ Because this repository starts without .agents/skills/, initialize is not initia
 
 ## Learning flow
 
-1. **Discuss the goal.** Use the Learning Guide workflow to clarify what you want to learn or change, why it matters, what you know already, your constraints, and what success looks like. If you are unsure of the goal, explore it without forcing a decision.
-2. **Confirm understanding.** The guide summarizes the goal and starting point so you can correct them. It distinguishes known facts, estimates, assumptions, and unknowns.
-3. **Agree on a plan.** Build an ordered route with topics, prerequisites, milestones, practice, evidence of progress, and review points. Estimates are labeled and provided only when justified.
-4. **Study with the Teacher.** Discuss how you prefer to study, then work through the agreed route with explanations, examples, and practice.
-5. **Check progress.** Use assessments for covered topics or goal-specific preparation such as qualification tests and mock interviews. An optional topic-based question bank can preserve reusable questions, answer keys or rubrics, and sources for later practice. Results are evidence about specific material, not a guarantee of mastery, passing, or hiring.
-6. **Keep history if wanted.** A journal is optional. Choose a private workspace and agree on its location before creating one. Blank formats are in templates/.
-7. **Adapt the route.** Revisit older material and adjust the plan when goals, constraints, or evidence change.
+1. **Clarify the goal.** The Learning Counselor asks focused questions about what you want to learn and why, your current knowledge, constraints, and what success means. It does not assume missing details or force a goal when you are still exploring.
+2. **Confirm the handoff.** When Counselor mode ends, it consolidates a Learning Brief with your confirmed goal, baseline, constraints, open questions, and proposed first step. A confirmed route can be included if you chose to plan. The Teacher uses this brief rather than relying on hidden chat history.
+3. **Agree on a route.** The learning-plan workflow turns a clarified goal into an ordered route with prerequisites, milestones, practice, evidence of progress, and review points. Estimates are labeled and provided only when justified.
+4. **Study with the Teacher.** The Teacher reviews your brief, checks your current knowledge and relevant prerequisites, fills gaps, and teaches with explanations, examples, and practice. It may recommend an assessment at a useful point and asks before starting one.
+5. **Check progress or practice interviews.** Assessment checks subject knowledge and goal-related readiness. Interview runs a separate mock interview. A learner-configured topic question bank preserves substantive questions, answer keys, or rubrics from either workflow. Results are evidence about specific material, not a guarantee of mastery, passing, or hiring.
+6. **Make notes and keep continuity if wanted.** Study Notes creates detailed Markdown. Handwritten Visual Notes creates a colorful PNG to view and copy into a notebook. A journal is optional. Agree on any save location and Git policy before creating learner records. Blank formats are in templates/.
+7. **Close and resume.** Each mode is an explicit workflow in the current conversation: saying “turn on” starts it, and “turn off” closes it after consolidating its current brief, plan, lesson summary, assessment or interview feedback, notes, and any authorized question-bank updates. This is not a persistent application setting. A future chat resumes from saved records only when you have chosen their location and tracking policy.
+8. **Adapt the route.** Revisit older material and adjust the plan when goals, constraints, or evidence change.
 
 For copy-ready prompts and complete walkthroughs, start with the [How to use guides](how-to-use/README.md).
 
-The Learning Guide should be candid and respectful. It should not promise success. If a target seems infeasible, it should explain why, identify evidence and uncertainties, and explore alternatives. Slow progress is a prompt to investigate prerequisites, workload, practice, and teaching fit, not a judgment of ability.
+The Learning Counselor should be candid and respectful. It should not promise success. If a target seems infeasible, it should explain why, identify evidence and uncertainties, and explore alternatives. The Teacher treats slow progress as a prompt to investigate prerequisites, workload, practice, teaching fit, and outside constraints, not as a judgment of ability.
 
 ## Repository structure
 
 - AGENTS.md — shared project guidance for agents that read this convention.
-- personas/ — portable Learning Guide and Teacher behavior definitions.
+- personas/ — portable Learning Counselor and Teacher behavior definitions.
 - skills/ — canonical, tool-independent skill sources.
-- templates/ — blank formats for optional topic question banks, journal indexes, topic journals, session notes, and a repo-local learning continuity index.
+- templates/ — blank formats for the Counselor-to-Teacher Learning Brief, detailed Markdown notes, optional topic question banks, journal indexes, topic journals, session notes, and a repo-local learning continuity index.
 - evals/ — manual workflow scenarios and skill-specific evaluation cases.
 - scripts/sync_skills.py — copies canonical skill files into a selected host's native skill folder.
 - No host-specific skills folder is included until a learner selects and initializes a host.
@@ -67,19 +68,23 @@ The host choices are abacus, codex, claude, or all. The script is an optional wa
 
 ## Personas
 
-- **Learning Guide:** Understands goals and context, asks instead of assuming, assesses feasibility honestly, and collaborates on a route.
-- **Teacher:** Follows an agreed plan, adapts to study preferences, checks understanding, and adjusts instruction based on evidence.
+- **Learning Counselor:** Understands goals and context, asks instead of assuming, assesses feasibility honestly, and prepares a confirmed Learning Brief and route for the Teacher.
+- **Teacher:** Uses the confirmed brief, checks baseline knowledge and prerequisites, teaches in depth as useful, recommends assessments when evidence supports them, and adjusts instruction based on evidence.
 
 ## Canonical skills
 
 - **initialize:** Clarifies the agent host and model separately, inspects the repository, verifies current discovery instructions, and proposes a native layout and Git policy.
-- **learning-guide:** Entry workflow for clarifying a learning goal and preparing an agreed handoff to planning.
-- **teacher:** Entry workflow for starting or resuming instruction from an agreed plan.
+- **learning-guide:** Learning Counselor entry and closeout workflow for clarifying a goal and preparing a confirmed Learning Brief.
+- **teacher:** Entry, teaching, assessment-recommendation, and closeout workflow based on the Learning Brief.
 - **learning-plan:** Produces an ordered, adjustable path after the goal is understood.
 - **progress-journal:** Maintains a small central index and topic-specific records with learner-reviewed, evidence-aware updates.
-- **assessment:** Provides topic checks, maintains an optional topic-based question bank, and supports goal-related practice tests or interviews.
-- **visual-notes:** Produces visual summaries suited to the material.
-- **writing:** Drafts or edits natural, audience-appropriate content and specific, accurate commit messages without generic AI filler.
+- **assessment:** Checks baseline, covered topics, milestones, or goal-related exam readiness; Teacher recommendations are optional and learner-led.
+- **interview:** Runs realistic mock interviews with follow-ups and rubric-based feedback.
+- **question-bank:** Maintains a learner-approved shared topic bank for assessment and interview questions, answer keys, and rubrics; once configured, it saves substantive questions from those sessions under the agreed policy.
+- **study-notes:** Produces detailed, source-grounded Markdown study notes for an agreed learning workspace.
+- **handwritten-visual-notes:** Produces colorful handwritten-style PNG sheets for viewing and copying by hand.
+- **visual-notes:** Produces general visual summaries such as concept maps, diagrams, and timelines.
+- **writing:** Drafts natural, audience-appropriate content and commit messages with specific subjects and detailed, accurate bodies under this repo's policy.
 - **workspace-intake:** Creates an agreed workspace or inspects an existing learning repository.
 - **git-updates:** Applies the learner's Git policy and respects authorization before commits and pushes.
 
@@ -87,25 +92,25 @@ These canonical skill files are not automatically host shortcuts until a native 
 
 ## Optional topic question banks
 
-A question bank is an optional learning record. Agree on its paths, contents, and Git policy before creating one. Use a small central `QUESTION-BANK.md` index with links to topic-specific `<topic>/QUESTION-BANK.md` files beside the relevant materials. The index stays small; question prompts, answer keys or rubrics, explanations, and sources live with each topic. Use `templates/question-bank-index-template.md` and `templates/topic-question-bank-template.md` as blank starting points.
+A question bank is created only after agreeing on paths, contents, and Git policy. Once configured, the bank saves substantive assessment and interview questions from sessions under that policy. Use a small central `QUESTION-BANK.md` index with links to topic-specific `<topic>/QUESTION-BANK.md` files beside the relevant materials. The index stays small; question prompts, answer keys or rubrics, explanations, and sources live with each topic. Use `templates/question-bank-index-template.md` and `templates/topic-question-bank-template.md` as blank starting points.
 
-Question banks preserve useful practice across lessons. During a quiz, the Teacher or Assessment workflow withholds the key until the learner attempts the question. Keep learner attempts separate from the answer key; save attempts or scores only if the learner opts in, in the agreed journal or attempt log. Questions must be grounded in material covered or assigned, and uncertain or time-sensitive answers must be marked for review.
+Question banks preserve assessment and interview practice across lessons. Assessment and Interview workflows use `question-bank` to save substantive questions, follow-ups, answer keys or rubrics, and sources in the agreed active-topic bank. During practice, the key or rubric stays hidden until the learner tries. Keep learner attempts separate from reusable questions; save attempts or scores only if the learner opts in, in the agreed journal or attempt log. Questions must be grounded in material covered, assigned, or relevant to an agreed interview goal, and uncertain or time-sensitive answers must be marked for review.
 
 ## Optional learner workspaces and journals
 
 Personal learning data is not created automatically. Before creating a journal or topic workspace, agree on its name, exact location, contents, and whether it belongs in Git. Keep private notes and personal progress out of this shared learning system by default.
 
-Use templates/learner-journal-template.md for the central index and templates/topic-journal-template.md for topic records. The central LEARNING-JOURNAL.md is a small index to topic journals and holds only genuinely cross-topic notes. Keep detailed reflections and problem history beside the relevant topic materials. At session start, read the agreed learning home/current-goal file and index, then only the active topic README and journal by default. Record the learner’s proposed approach, guidance needed, learner-reported acceptance, and what they want to derive or revisit; distinguish reports from demonstrated evidence. A completed file, commit, or accepted submission alone does not demonstrate mastery.
+Use templates/learning-brief-template.md for the counselor-to-Teacher handoff, templates/learner-journal-template.md for the central index, and templates/topic-journal-template.md for topic records. The central LEARNING-JOURNAL.md is a small index to topic journals and holds only genuinely cross-topic notes. Keep detailed reflections and problem history beside the relevant topic materials. At session start, read the agreed learning home and Learning Brief, then the journal index and only the active topic README and journal by default. Record the learner’s proposed approach, guidance needed, learner-reported acceptance, and what they want to derive or revisit; distinguish reports from demonstrated evidence. A completed file, commit, or accepted submission alone does not demonstrate mastery.
 
 ## Existing learning repositories
 
 Use workspace-intake to inspect a repo where learning is already underway. Inventory its materials, relate them to the agreed goal, and propose journal updates with references to evidence. Distinguish what the materials show was completed from what they establish the learner understands. It asks whether you want a restructure or prefer to keep the current layout. If you opt in, it can propose a better structure with a current-to-proposed path map and effects on references, imports, configuration, tests, and host discovery; it applies only the specific reorganization you approve.
 
-If you want to resume learning after cloning or pulling the repo, ask it to set up an agreed learning entry point from [the continuity index template](templates/learning-home-template.md). The index links to the active goal, plan, central journal index, current topic materials, and latest session notes, and records the current milestone, demonstrated evidence, open questions, and next step. Future agents should read it before resuming; if the host does not discover it automatically, direct the agent to the file. You choose which records are tracked in Git; private details stay out unless you explicitly choose to include them. During a later session, use the Teacher skill to resume from the saved state.
+If you want to resume learning after cloning or pulling the repo, ask it to set up an agreed learning entry point from [the continuity index template](templates/learning-home-template.md). The index links to the active goal, confirmed Learning Brief and plan, central journal index, current topic materials, and latest session notes, and records the current milestone, demonstrated evidence, open questions, and next step. Future agents should read it before resuming; if the host does not discover it automatically, direct the agent to the file. You choose which records are tracked in Git; private details stay out unless you explicitly choose to include them. During a later session, use the Teacher skill to resume from the saved state.
 
 ## Git policy
 
-Discuss what should be tracked, what should remain private or untracked, how journal changes are handled, commit style, branch, and remote before connecting or reshaping a workspace. Keep changes focused: make the smallest coherent change and preserve unrelated work. Before each Git action, show the exact files and destination. Authorization to stage, commit, and push is separate; a request authorizes only the action and scope it explicitly covers. Do not initialize Git or publish changes without authorization.
+Discuss what should be tracked, what should remain private or untracked, how journal changes are handled, commit style, branch, and remote before connecting or reshaping a workspace. Keep changes focused: make the smallest coherent change and preserve unrelated work. Before each Git action, show the exact files and destination. Authorization to stage, commit, and push is separate; a request authorizes only the action and scope it explicitly covers. Every commit needs a specific subject and a detailed body explaining why and what changed and which checks were actually run. Do not initialize Git or publish changes without authorization.
 
 ## Quality checks
 
