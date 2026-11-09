@@ -38,6 +38,7 @@ The Learning Counselor should be candid and respectful. It should not promise su
 ## Repository structure
 
 - AGENTS.md — shared project guidance for agents that read this convention.
+- HANDWRITTEN-VISUAL-NOTES-PALETTE.md — optional reusable color preferences for handwritten visual sheets.
 - personas/ — portable Learning Counselor and Teacher behavior definitions.
 - skills/ — canonical, tool-independent skill sources.
 - templates/ — blank formats for the Counselor-to-Teacher Learning Brief, detailed Markdown notes, optional topic question banks, journal indexes, topic journals, session notes, and a repo-local learning continuity index.
@@ -82,7 +83,7 @@ The host choices are abacus, codex, claude, or all. The script is an optional wa
 - **interview:** Runs realistic mock interviews with follow-ups and rubric-based feedback.
 - **question-bank:** Maintains a learner-approved shared topic bank for assessment and interview questions, answer keys, and rubrics; once configured, it saves substantive questions from those sessions under the agreed policy.
 - **study-notes:** Produces detailed, source-grounded Markdown study notes for an agreed learning workspace.
-- **handwritten-visual-notes:** Produces colorful handwritten-style PNG sheets for viewing and copying by hand.
+- **handwritten-visual-notes:** Produces colorful handwritten-style PNG sheets, reusing palette preferences saved in the project for viewing and copying by hand.
 - **visual-notes:** Produces general visual summaries such as concept maps, diagrams, and timelines.
 - **writing:** Drafts natural, audience-appropriate content and commit messages with specific subjects and detailed, accurate bodies under this repo's policy.
 - **workspace-intake:** Creates an agreed workspace or inspects an existing learning repository.

@@ -8,6 +8,18 @@ Invoke `handwritten-visual-notes` or say:
 
 > Read `skills/handwritten-visual-notes/SKILL.md` and follow it. Make one colorful handwritten-style PNG study sheet for [topic] using the material we covered or this source: [lesson/file/link]. I want to view it and copy it into my notebook. Choose a layout that fits the material, keep it readable, and mark any uncertain connection rather than guessing. Do not save it to Git.
 
+The workflow checks the project-root [palette preferences file](../HANDWRITTEN-VISUAL-NOTES-PALETTE.md) on each request and reuses any saved colors. Set that file once to avoid repeating your palette.
+
+## Choose a palette
+
+You can specify a preferred palette when requesting a page. For example:
+
+> Use a warm cream page, dark brown text, teal headings, and coral highlights. Keep the colors easy to copy by hand.
+
+You can set the page background, body text, heading, highlight, and diagram accent colors. If you do not specify colors, the page uses a small, coordinated palette with readable contrast. Color should support the visual hierarchy; labels and shapes should still make the content understandable if copied in fewer colors.
+
+To make the choice reusable, record your colors in `HANDWRITTEN-VISUAL-NOTES-PALETTE.md` at the project root. A specific palette stated in a request overrides the saved palette for that page.
+
 Useful visual elements may include:
 
 - A compact concept map showing how [concepts] relate.

@@ -9,10 +9,11 @@
     "Explain the topic in chat without making a visual."
   ],
   "behavioral_evaluation": {
-    "prompt": "Create one full-color handwritten-style PNG study sheet from this source on the water cycle. I want to look at it and copy it into my notebook. Keep the labels readable and the relationships accurate. Do not save it in my learning repo.",
+    "prompt": "The project-root HANDWRITTEN-VISUAL-NOTES-PALETTE.md contains my saved colors. Create one full-color handwritten-style PNG study sheet from this source on the water cycle. I want to look at it and copy it into my notebook. Use my saved colors without asking me to repeat them. Keep the labels readable and the relationships accurate. Do not save it in my learning repo.",
     "pass_criteria": [
       "Produces a full-color PNG visual sheet with a clear layout suited to the material when image generation is available; otherwise states the limitation and offers a structured layout to draw.",
       "Uses concise labels, consistent color coding, useful visual relationships, and enough whitespace for legibility.",
+      "Checks and applies the saved page, body-text, heading, and highlight colors without asking the learner to repeat them, while preserving readable contrast and a practical palette for hand-copying.",
       "Grounds every claim in the supplied source and does not invent details for visual appeal.",
       "Treats the image as a copy-by-hand aid and does not create or modify a Git artifact or journal entry.",
       "Provides a concise text description or equivalent accessible summary."
